@@ -1,0 +1,78 @@
+.switch_area {
+    &-btn {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        .switch_area-toggle {
+            position: relative;
+            width: 76px;
+            height: 34px;
+            &-slider {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: #e8e8e8;
+                transition: 0.5s;
+                border-radius: 50px;
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    left: 3px;
+                    width: 28px;
+                    height: 28px;
+                    background: #FFFFFF;
+                    border-radius: 50px;
+                    transition: 0.5s;
+                    transform: translateY(-50%);
+                }
+            }
+            .check {
+                position: absolute;
+                display: block;
+                cursor: pointer;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+                z-index: 6;
+                &:checked+.switch_area-toggle-slider {
+                    background: #3F4FFF;
+                    &::after {
+                        left: calc(100% - 3px);
+                        transform: translateX(-100%) translateY(-50%);
+                    }
+                }
+            }
+        }
+        &-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            cursor: pointer;
+            i,
+            h6 {
+                color: #8C8C8C;
+                transition: 0.5s;
+            }
+            h6 {
+                font-size: 18px;
+                line-height: 28px;
+                font-weight: 500;
+            }
+        }
+        .switch_item.active {
+            .switch_area-btn-item {
+                cursor: inherit;
+                i,
+                h6 {
+                    color: #3F4FFF;
+                }                
+            }
+        }
+    }
+    .hide {
+        display: none;
+    }
+}
