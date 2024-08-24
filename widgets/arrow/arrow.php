@@ -414,6 +414,15 @@ class FlexiType_Arrow extends Widget_Base
                 'type' => Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}} .flexitype_slider-dots .swiper-pagination-bullet-active' => 'background: {{VALUE}};',
+                ],
+            ]
+        );
+        $this->add_control(
+            'dots_border_color',
+            [
+                'label' => esc_html__('Border Color', 'flexitype-lite'),
+                'type' => Controls_Manager::COLOR,
+                'selectors' => [
                     '{{WRAPPER}} .flexitype_slider-dots .swiper-pagination-bullet::after' => 'border-color: {{VALUE}};',
                 ],
             ]

@@ -603,6 +603,16 @@ class FlexiType_Blog extends Widget_Base
                 'separator' => 'after',
             ]
         );
+        $this->add_control(
+            'blog_item_bg',
+            [
+                'label' => esc_html__('Background', 'flexitype-lite'),
+                'type' => Controls_Manager::COLOR,
+                'selectors' => [
+                    '{{WRAPPER}} .blog_one-item' => 'background: {{VALUE}}',
+                ],
+            ]
+        );
 		$this->add_group_control(
 			Group_Control_Border::get_type(),
 			[
@@ -610,6 +620,13 @@ class FlexiType_Blog extends Widget_Base
 				'selector' => '{{WRAPPER}} .blog_one-item',
 			]
 		);
+        $this->add_group_control(
+            Group_Control_Box_Shadow::get_type(),
+            [
+                'name' => 'blog_item_shadow',
+                'selector' => '{{WRAPPER}} .blog_one-item',
+            ]
+        );
         $this->add_responsive_control(
             'blog_item_radius',
             [
@@ -1879,6 +1896,16 @@ class FlexiType_Blog extends Widget_Base
                 'type' => Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}} .flexitype_slider-dots .swiper-pagination-bullet-active' => 'background: {{VALUE}};',
+                ],
+            ]
+        );
+        $this->add_control(
+            'dots_border_color',
+            [
+                'label' => esc_html__('Border Color', 'flexitype-lite'),
+                'type' => Controls_Manager::COLOR,
+                'selectors' => [
+                    '{{WRAPPER}} .flexitype_slider-dots .swiper-pagination-bullet::after' => 'border-color: {{VALUE}};',
                 ],
             ]
         );

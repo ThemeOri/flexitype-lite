@@ -273,9 +273,22 @@ class FlexiType_Testimonial extends Widget_Base
 				],
                 'condition' => [
                     'active_slider' => ['yes'],
-                ]
+                ],
 			]
 		);
+        $this->add_control(
+            'centered_slides',
+            [
+                'label' => esc_html__('Centered Slides', 'flexitype-lite'),
+                'type' => Controls_Manager::SWITCHER,
+                'label_on' => esc_html__('Yes', 'flexitype-lite'),
+                'label_off' => esc_html__('No', 'flexitype-lite'),
+                'return_value' => 'true',
+                'condition' => [
+                    'active_slider' => ['yes'],
+                ],
+            ]
+        );
         $this->add_control(
             'slide_delay',
             [
@@ -287,7 +300,7 @@ class FlexiType_Testimonial extends Widget_Base
                 'default' => 4000,
                 'condition' => [
                     'active_slider' => ['yes'],
-                ]
+                ],
             ]
         );
         $this->add_control(
@@ -301,7 +314,7 @@ class FlexiType_Testimonial extends Widget_Base
                 'default' => 500,
                 'condition' => [
                     'active_slider' => ['yes'],
-                ]
+                ],
             ]
         );
         $this->add_control(
@@ -315,7 +328,7 @@ class FlexiType_Testimonial extends Widget_Base
                 'default' => 30,
                 'condition' => [
                     'active_slider' => ['yes'],
-                ]
+                ],
             ]
         );
         $this->add_control(
@@ -329,7 +342,7 @@ class FlexiType_Testimonial extends Widget_Base
                 'default' => 2,
                 'condition' => [
                     'active_slider' => ['yes'],
-                ]
+                ],
             ]
         );
         $this->add_control(
@@ -343,7 +356,7 @@ class FlexiType_Testimonial extends Widget_Base
                 'default' => 3,
                 'condition' => [
                     'active_slider' => ['yes'],
-                ]
+                ],
             ]
         );
         $this->add_control(
@@ -357,7 +370,7 @@ class FlexiType_Testimonial extends Widget_Base
                 'default' => 1,
                 'condition' => [
                     'active_slider' => ['yes'],
-                ]
+                ],
             ]
         );
         $this->add_control(
@@ -371,7 +384,7 @@ class FlexiType_Testimonial extends Widget_Base
                 'default' => 1,
                 'condition' => [
                     'active_slider' => ['yes'],
-                ]
+                ],
             ]
         );
         $this->add_control(
@@ -385,7 +398,7 @@ class FlexiType_Testimonial extends Widget_Base
                 'default' => 'yes',
                 'condition' => [
                     'active_slider' => ['yes'],
-                ]
+                ],
             ]
         );
         $this->add_control(
@@ -399,7 +412,7 @@ class FlexiType_Testimonial extends Widget_Base
                 'default' => 'yes',
                 'condition' => [
                     'active_slider' => ['yes'],
-                ]
+                ],
             ]
         );
         $this->add_control(
@@ -490,7 +503,15 @@ class FlexiType_Testimonial extends Widget_Base
 				'selector' => '{{WRAPPER}} .flexitype_testimonial_one-item,
 				{{WRAPPER}} .flexitype_testimonial_two-item',
 			]
-		);    
+		);
+        $this->add_group_control(
+            Group_Control_Box_Shadow::get_type(),
+            [
+                'name' => 'box_icon_shadow',
+                'selector' => '{{WRAPPER}} .flexitype_testimonial_one-item,
+                {{WRAPPER}} .flexitype_testimonial_two-item',
+            ]
+        );
         $this->add_responsive_control(
             'testimonial_item_radius',
             [
@@ -501,7 +522,6 @@ class FlexiType_Testimonial extends Widget_Base
                     '{{WRAPPER}} .flexitype_testimonial_one-item' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
                     '{{WRAPPER}} .flexitype_testimonial_two-item' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
                 ],
-                'separator' => 'before',
             ]
         );
         $this->add_responsive_control(
@@ -515,7 +535,22 @@ class FlexiType_Testimonial extends Widget_Base
                     '{{WRAPPER}} .flexitype_testimonial_two-item' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
                 ],
             ]
-        );        
+        );
+        $this->add_responsive_control(
+            'testimonial_item_margin',
+            [
+                'label' => esc_html__('Margin', 'flexitype-lite'),
+                'type' => Controls_Manager::DIMENSIONS,
+                'size_units' => ['px', '%', 'em', 'rem', 'custom'],
+                'selectors' => [
+                    '{{WRAPPER}} .flexitype_testimonial_one-item' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+                    '{{WRAPPER}} .flexitype_testimonial_two-item' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+                ],                
+                'condition' => [
+                    'active_slider' => ['yes'],
+                ],
+            ]
+        );
 		$this->add_control(
 			'rating_name',
 			[
@@ -1090,6 +1125,15 @@ class FlexiType_Testimonial extends Widget_Base
                 'type' => Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}} .flexitype_slider-dots .swiper-pagination-bullet-active' => 'background: {{VALUE}};',
+                ],
+            ]
+        );
+        $this->add_control(
+            'dots_border_color',
+            [
+                'label' => esc_html__('Border Color', 'flexitype-lite'),
+                'type' => Controls_Manager::COLOR,
+                'selectors' => [
                     '{{WRAPPER}} .flexitype_slider-dots .swiper-pagination-bullet::after' => 'border-color: {{VALUE}};',
                 ],
             ]
@@ -1157,6 +1201,7 @@ class FlexiType_Testimonial extends Widget_Base
                                 slidesPerView: <?php echo wp_json_encode($settings['slide_columns_des']) ?>,
                             },
                         },
+                        centeredSlides: <?php echo wp_json_encode($settings['centered_slides']) ?>,
                     });
                 });
             })(jQuery);

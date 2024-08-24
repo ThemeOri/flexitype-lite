@@ -1005,9 +1005,9 @@ class FlexiType_ImageBox extends Widget_Base
         $this->end_controls_section();
 
         $this->start_controls_section(
-            'icon_box_content_style',
+            'icon_box_content_area',
             [
-                'label' => esc_html__('Title & Description','flexitype-lite'),
+                'label' => esc_html__('Content Area','flexitype-lite'),
                 'tab' => Controls_Manager::TAB_STYLE,
             ]
         );
@@ -1018,19 +1018,17 @@ class FlexiType_ImageBox extends Widget_Base
 				'selector' => '{{WRAPPER}} .icon__box-item-content',
 			]
 		);
-        $this->add_control(
-            'hover_content_border_color',
+        $this->add_responsive_control(
+            'icon_box_title_radius',
             [
-                'label' => esc_html__('Hover Border Color','flexitype-lite'),
-                'type' => Controls_Manager::COLOR,
+                'label' => esc_html__('Border Radius','flexitype-lite'),
+                'type' => Controls_Manager::DIMENSIONS,
+                'size_units' => ['px', '%', 'em', 'rem', 'custom'],
                 'selectors' => [
-                    '{{WRAPPER}} .icon__box-item:hover .icon__box-item-content' => 'border-color: {{VALUE}};',
-                ],
-                'condition' => [
-                    'content_border_type!' => '',
+                    '{{WRAPPER}} .icon__box-item-content' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
                 ],
             ]
-        );  
+        );
         $this->add_responsive_control(
             'icon_box_title_padding',
             [
@@ -1051,6 +1049,15 @@ class FlexiType_ImageBox extends Widget_Base
                 'selectors' => [
                     '{{WRAPPER}} .icon__box-item-content' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
                 ],
+            ]
+        );
+        $this->end_controls_section();
+
+        $this->start_controls_section(
+            'icon_box_content_style',
+            [
+                'label' => esc_html__('Title & Description','flexitype-lite'),
+                'tab' => Controls_Manager::TAB_STYLE,
             ]
         );
         $this->add_control(

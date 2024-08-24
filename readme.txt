@@ -1,7 +1,7 @@
-=== FlexiType Lite - Elements for Elementor ===
+=== FlexiType Lite ===
 Contributors: wpsojib, themeori
 Tags:  elementor addons, elementor widget, elementor, addons for elementor, elementor blocks
-Stable tag: 1.0.0
+Stable tag: 1.0.2
 Requires at least: 5.0
 Tested up to: 6.6
 Requires PHP: 7.4
@@ -46,7 +46,7 @@ WordPress Memory limit of 128 MB or higher is preferred
 1. Upload the plugin folder to the /wp-content/plugins/ directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the ‘Plugins’ screen in WordPress
 3. You can type "FlexiType Lite" on your element tabs within the Elementor editor and all the available elements will appear.
-4. Also, you can see them under the category "Spider Elements" on your element/widget list.
+4. Also, you can see them under the category "Elementor Elements" on your element/widget list.
 
 == Changelog ==
 

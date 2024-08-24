@@ -182,7 +182,7 @@ class FlexiType_NavMenu extends Widget_Base
 
             'size_units' => ['px', '%', 'em', 'rem', 'custom'],
             'selectors' => [
-                '{{WRAPPER}} .header_nav-menu .menu-main-menu-container > ul > li > a' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+                '{{WRAPPER}} .header_nav-menu ul > li > a' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
             ],
             ]
         );

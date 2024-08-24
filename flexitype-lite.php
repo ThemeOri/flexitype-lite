@@ -1,10 +1,10 @@
 <?php
 
 /**
- * Plugin Name:       FlexiType Lite - Elements for Elementor
- * Plugin URI:        http://flexitype.pro
+ * Plugin Name:       FlexiType Lite
+ * Plugin URI:        http://flexitype.themeori.com
  * Description:       Simple Powerful Tools for Your Next WordPress Project
- * Version:           1.0.0
+ * Version:           1.0.2
  * Requires at least: 6.5
  * Requires PHP:      7.4
  * Author:            ThemeOri

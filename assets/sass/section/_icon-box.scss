@@ -31,14 +31,11 @@
         z-index: -1;
     }
     &.box_image {
-        &.row-reverse,
-        &.flex {
-            .icon__box-image {
-                flex-shrink: 0;
-            }
-            .icon__box-item-content {
-                width: 100%;
-            }            
+        .icon__box-image {
+            flex-shrink: 0;
+        }
+        .icon__box-item-content {
+            width: 100%;
         }
         .icon__box-item-content {
             position: relative;

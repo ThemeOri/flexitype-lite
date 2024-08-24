@@ -345,7 +345,7 @@
 .header_nav-menu ul li .sub-menu li > a {
   border-bottom: 1px solid #E8E8E8;
   color: #242424;
-  padding: 12px 0;
+  padding: 12px 0 !important;
   transition: all 0.4s ease-out 0s;
   font-size: 15px;
   line-height: 25px;
@@ -872,10 +872,10 @@
   height: 100%;
   z-index: -1;
 }
-.icon__box-item.box_image.row-reverse .icon__box-image, .icon__box-item.box_image.flex .icon__box-image {
+.icon__box-item.box_image .icon__box-image {
   flex-shrink: 0;
 }
-.icon__box-item.box_image.row-reverse .icon__box-item-content, .icon__box-item.box_image.flex .icon__box-item-content {
+.icon__box-item.box_image .icon__box-item-content {
   width: 100%;
 }
 .icon__box-item.box_image .icon__box-item-content {
