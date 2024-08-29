@@ -1,0 +1,3029 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-06-27 23:34+0600\n"
+"PO-Revision-Date: 2024-06-27 23:34+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html;esc_html__;esc_html_e;esc_attr;"
+"esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/dashboard.php:13
+msgid "Header & Footer Builder"
+msgstr ""
+
+#: admin/dashboard.php:14
+msgid ""
+"Easily create and customize headers and footers with our intuitive drag-and-"
+"drop builder."
+msgstr ""
+
+#: admin/dashboard.php:22
+msgid "Mega Menu Builder"
+msgstr ""
+
+#: admin/dashboard.php:23
+msgid ""
+"Design complex, multi-column navigation menus with our user-friendly mega "
+"menu builder."
+msgstr ""
+
+#: admin/dashboard.php:31
+msgid "Template Library"
+msgstr ""
+
+#: admin/dashboard.php:32
+msgid ""
+"Access a vast library of pre-designed templates to quickly build beautiful "
+"pages and layouts."
+msgstr ""
+
+#: admin/dashboard.php:40 includes/settings.php:41
+msgid "Post Type Builder"
+msgstr ""
+
+#: admin/dashboard.php:41
+msgid ""
+"Create custom post types to organize and display content uniquely suited to "
+"your website’s needs."
+msgstr ""
+
+#: admin/dashboard.php:52
+msgid "Hire Us to Transform Your Website"
+msgstr ""
+
+#: admin/dashboard.php:53
+msgid ""
+"Bring your vision to life with our expert web design and development "
+"services. Get complete design flexibility for your website with our advanced "
+"tools and premium features."
+msgstr ""
+
+#: admin/dashboard.php:56
+msgid "Get Started Today"
+msgstr ""
+
+#: admin/dashboard.php:58
+msgid "Custom Website"
+msgstr ""
+
+#: admin/dashboard.php:61
+msgid "Figma to Elementor"
+msgstr ""
+
+#: admin/dashboard.php:64
+msgid "Speed Optimization"
+msgstr ""
+
+#: admin/dashboard.php:67
+msgid "E-commerce Functionality"
+msgstr ""
+
+#: admin/dashboard.php:70
+msgid "100% Satisfaction Guarantee"
+msgstr ""
+
+#: admin/dashboard.php:78
+msgid "Help Center"
+msgstr ""
+
+#: admin/dashboard.php:81
+msgid "Youtube"
+msgstr ""
+
+#: admin/dashboard.php:83
+msgid "Facebook"
+msgstr ""
+
+#: admin/dashboard.php:86 widgets/blog/blog.php:21
+msgid "Blog"
+msgstr ""
+
+#: admin/dashboard.php:89
+msgid "Documentation"
+msgstr ""
+
+#: admin/lib/csf/classes/admin-options.class.php:169
+msgid "Error while saving the changes."
+msgstr ""
+
+#: admin/lib/csf/classes/admin-options.class.php:229
+msgid "Settings successfully imported."
+msgstr ""
+
+#: admin/lib/csf/classes/admin-options.class.php:241
+#: admin/lib/csf/classes/admin-options.class.php:257
+msgid "Default settings restored."
+msgstr ""
+
+#: admin/lib/csf/classes/admin-options.class.php:328
+msgid "Settings saved."
+msgstr ""
+
+#: admin/lib/csf/classes/admin-options.class.php:509
+msgid "You have unsaved changes, save your changes!"
+msgstr ""
+
+#: admin/lib/csf/classes/admin-options.class.php:511
+msgid "show all settings"
+msgstr ""
+
+#: admin/lib/csf/classes/admin-options.class.php:513
+#: admin/lib/csf/fields/icon/icon.php:57 admin/lib/csf/fields/map/map.php:23
+#: widgets/search/search.php:64
+msgid "Search..."
+msgstr ""
+
+#: admin/lib/csf/classes/admin-options.class.php:516
+#: admin/lib/csf/classes/admin-options.class.php:639
+msgid "Save"
+msgstr ""
+
+#: admin/lib/csf/classes/admin-options.class.php:516
+#: admin/lib/csf/classes/admin-options.class.php:639
+msgid "Saving..."
+msgstr ""
+
+#: admin/lib/csf/classes/admin-options.class.php:517
+#: admin/lib/csf/classes/admin-options.class.php:640
+msgid "Reset Section"
+msgstr ""
+
+#: admin/lib/csf/classes/admin-options.class.php:517
+#: admin/lib/csf/classes/admin-options.class.php:640
+msgid "Are you sure to reset this section options?"
+msgstr ""
+
+#: admin/lib/csf/classes/admin-options.class.php:518
+#: admin/lib/csf/classes/admin-options.class.php:641
+msgid "Reset All"
+msgstr ""
+
+#: admin/lib/csf/classes/admin-options.class.php:518
+#: admin/lib/csf/classes/admin-options.class.php:641
+#: admin/lib/csf/classes/comment-options.class.php:201
+#: admin/lib/csf/classes/metabox-options.class.php:278
+#: admin/lib/csf/fields/backup/backup.php:31
+msgid "Reset"
+msgstr ""
+
+#: admin/lib/csf/classes/admin-options.class.php:518
+#: admin/lib/csf/classes/admin-options.class.php:641
+msgid "Are you sure you want to reset all settings to default values?"
+msgstr ""
+
+#: admin/lib/csf/classes/admin-options.class.php:616
+#: admin/lib/csf/classes/comment-options.class.php:184
+#: admin/lib/csf/classes/metabox-options.class.php:261
+#: admin/lib/csf/fields/button_set/button_set.php:56
+#: admin/lib/csf/fields/checkbox/checkbox.php:82
+#: admin/lib/csf/fields/radio/radio.php:75
+#: admin/lib/csf/fields/select/select.php:113
+#: admin/lib/csf/functions/actions.php:41
+msgid "No data available."
+msgstr ""
+
+#: admin/lib/csf/classes/comment-options.class.php:202
+#: admin/lib/csf/classes/metabox-options.class.php:279
+msgid "update post"
+msgstr ""
+
+#: admin/lib/csf/classes/comment-options.class.php:202
+#: admin/lib/csf/classes/metabox-options.class.php:279
+msgid "Cancel"
+msgstr ""
+
+#: admin/lib/csf/classes/setup.class.php:606
+msgid "Are you sure?"
+msgstr ""
+
+#: admin/lib/csf/classes/setup.class.php:607
+#, php-format
+msgid "Please enter %s or more characters"
+msgstr ""
+
+#: admin/lib/csf/classes/setup.class.php:608
+msgid "Searching..."
+msgstr ""
+
+#: admin/lib/csf/classes/setup.class.php:609
+msgid "No results found."
+msgstr ""
+
+#: admin/lib/csf/classes/setup.class.php:710
+msgid "Oops! Not allowed."
+msgstr ""
+
+#: admin/lib/csf/classes/setup.class.php:778
+#: admin/lib/csf/classes/setup.class.php:782
+msgid "Field not found!"
+msgstr ""
+
+#: admin/lib/csf/classes/shortcode-options.class.php:210
+#: admin/lib/csf/fields/group/group.php:23
+msgid "Add New"
+msgstr ""
+
+#: admin/lib/csf/classes/shortcode-options.class.php:247
+#: admin/lib/csf/functions/actions.php:16
+#: admin/lib/csf/functions/actions.php:68
+#: admin/lib/csf/functions/actions.php:106
+#: admin/lib/csf/functions/actions.php:141
+#: admin/lib/csf/functions/actions.php:170
+msgid "Error: Invalid nonce verification."
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:36
+#: admin/lib/csf/fields/media/media.php:59
+msgid "Not selected"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:72
+#: admin/lib/csf/fields/date/date.php:31
+#: admin/lib/csf/fields/datetime/datetime.php:36
+msgid "From"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:90
+#: admin/lib/csf/fields/date/date.php:32
+#: admin/lib/csf/fields/datetime/datetime.php:37
+msgid "To"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:108
+msgid "Direction"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:114
+msgid "Gradient Direction"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:115
+msgid "&#8659; top to bottom"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:116
+msgid "&#8658; left to right"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:117
+msgid "&#8664; corner top to right"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:118
+msgid "&#8665; corner top to left"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:161
+msgid "Background Position"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:162
+msgid "Left Top"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:163
+msgid "Left Center"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:164
+msgid "Left Bottom"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:165
+msgid "Center Top"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:166
+msgid "Center Center"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:167
+msgid "Center Bottom"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:168
+msgid "Right Top"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:169
+msgid "Right Center"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:170
+msgid "Right Bottom"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:184
+msgid "Background Repeat"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:185
+msgid "Repeat"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:186
+msgid "No Repeat"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:187
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:188
+msgid "Repeat Vertically"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:202
+msgid "Background Attachment"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:203
+msgid "Scroll"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:204
+msgid "Fixed"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:218
+msgid "Background Size"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:219
+#: widgets/flip-box/flip-box.php:1181 widgets/image-box/image-box.php:702
+msgid "Cover"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:220
+#: widgets/flip-box/flip-box.php:1182 widgets/image-box/image-box.php:703
+msgid "Contain"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:221
+msgid "Auto"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:235
+msgid "Background Origin"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:236
+#: admin/lib/csf/fields/background/background.php:254
+msgid "Padding Box"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:237
+#: admin/lib/csf/fields/background/background.php:253
+msgid "Border Box"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:238
+#: admin/lib/csf/fields/background/background.php:255
+msgid "Content Box"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:252
+msgid "Background Clip"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:269
+msgid "Background Blend Mode"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:270
+#: admin/lib/csf/fields/link_color/link_color.php:36
+#: admin/lib/csf/fields/typography/typography.php:186 controls/sticky.php:35
+#: widgets/accordion/accordion.php:70 widgets/accordion/accordion.php:240
+#: widgets/accordion/accordion.php:360 widgets/accordion/accordion.php:521
+#: widgets/arrow/arrow.php:158 widgets/arrow/arrow.php:348
+#: widgets/blog/blog.php:848 widgets/blog/blog.php:1025
+#: widgets/blog/blog.php:1175 widgets/blog/blog.php:1659
+#: widgets/blog/blog.php:1813 widgets/button/button.php:140
+#: widgets/contact-form/contact-form7.php:568
+#: widgets/flip-box/flip-box.php:1735 widgets/icon-box/icon-box.php:495
+#: widgets/icon-box/icon-box.php:1102 widgets/icon-box/icon-box.php:1316
+#: widgets/icon-box/icon-box.php:1777 widgets/image-box/image-box.php:373
+#: widgets/image-box/image-box.php:744 widgets/image-box/image-box.php:1178
+#: widgets/image-box/image-box.php:1392 widgets/image-box/image-box.php:1847
+#: widgets/image-slider/image-slider.php:586
+#: widgets/image-slider/image-slider.php:1074
+#: widgets/image-slider/image-slider.php:1510
+#: widgets/image-slider/image-slider.php:1664 widgets/team/team.php:251
+#: widgets/team/team.php:668 widgets/testimonial/testimonial.php:870
+#: widgets/testimonial/testimonial.php:1024
+msgid "Normal"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:271
+msgid "Multiply"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:272
+msgid "Screen"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:273
+msgid "Overlay"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:274
+msgid "Darken"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:275
+msgid "Lighten"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:276
+msgid "Color Dodge"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:277
+msgid "Saturation"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:278
+#: widgets/accordion/accordion.php:373 widgets/accordion/accordion.php:430
+#: widgets/accordion/accordion.php:480 widgets/accordion/accordion.php:527
+#: widgets/accordion/accordion.php:610 widgets/arrow/arrow.php:164
+#: widgets/arrow/arrow.php:283 widgets/arrow/arrow.php:354
+#: widgets/arrow/arrow.php:413 widgets/blog/blog.php:730
+#: widgets/blog/blog.php:758 widgets/blog/blog.php:782
+#: widgets/blog/blog.php:893 widgets/blog/blog.php:1001
+#: widgets/blog/blog.php:1046 widgets/blog/blog.php:1122
+#: widgets/blog/blog.php:1299 widgets/blog/blog.php:1502
+#: widgets/blog/blog.php:1665 widgets/blog/blog.php:1774
+#: widgets/blog/blog.php:1819 widgets/blog/blog.php:1878
+#: widgets/button/button.php:302 widgets/button/button.php:363
+#: widgets/content-switch/content-switch.php:288
+#: widgets/content-switch/content-switch.php:315
+#: widgets/content-switch/content-switch.php:429
+#: widgets/flip-box/flip-box.php:885 widgets/flip-box/flip-box.php:998
+#: widgets/flip-box/flip-box.php:1310 widgets/flip-box/flip-box.php:1346
+#: widgets/flip-box/flip-box.php:1434 widgets/flip-box/flip-box.php:1483
+#: widgets/flip-box/flip-box.php:1542 widgets/flip-box/flip-box.php:1641
+#: widgets/flip-box/flip-box.php:1816 widgets/flip-box/flip-box.php:2030
+#: widgets/icon-box/icon-box.php:629 widgets/icon-box/icon-box.php:677
+#: widgets/icon-box/icon-box.php:695 widgets/icon-box/icon-box.php:716
+#: widgets/icon-box/icon-box.php:763 widgets/icon-box/icon-box.php:1010
+#: widgets/icon-box/icon-box.php:1048 widgets/icon-box/icon-box.php:1146
+#: widgets/icon-box/icon-box.php:1248 widgets/icon-box/icon-box.php:1433
+#: widgets/icon-box/icon-box.php:1669 widgets/image-box/image-box.php:506
+#: widgets/image-box/image-box.php:554 widgets/image-box/image-box.php:572
+#: widgets/image-box/image-box.php:593 widgets/image-box/image-box.php:872
+#: widgets/image-box/image-box.php:1073 widgets/image-box/image-box.php:1111
+#: widgets/image-box/image-box.php:1222 widgets/image-box/image-box.php:1324
+#: widgets/image-box/image-box.php:1502 widgets/image-box/image-box.php:1739
+#: widgets/image-slider/image-slider.php:660
+#: widgets/image-slider/image-slider.php:698
+#: widgets/image-slider/image-slider.php:722
+#: widgets/image-slider/image-slider.php:746
+#: widgets/image-slider/image-slider.php:842
+#: widgets/image-slider/image-slider.php:866
+#: widgets/image-slider/image-slider.php:939
+#: widgets/image-slider/image-slider.php:1161
+#: widgets/image-slider/image-slider.php:1353
+#: widgets/image-slider/image-slider.php:1516
+#: widgets/image-slider/image-slider.php:1625
+#: widgets/image-slider/image-slider.php:1670
+#: widgets/image-slider/image-slider.php:1729 widgets/menu/nav-menu.php:139
+#: widgets/menu/nav-menu.php:230 widgets/search/search.php:181
+#: widgets/team/team.php:318 widgets/team/team.php:336
+#: widgets/team/team.php:407 widgets/team/team.php:455
+#: widgets/team/team.php:552 widgets/team/team.php:681
+#: widgets/team/team.php:859 widgets/team/team.php:970
+#: widgets/team/team.php:1004 widgets/testimonial/testimonial.php:533
+#: widgets/testimonial/testimonial.php:579
+#: widgets/testimonial/testimonial.php:672
+#: widgets/testimonial/testimonial.php:701
+#: widgets/testimonial/testimonial.php:730
+#: widgets/testimonial/testimonial.php:876
+#: widgets/testimonial/testimonial.php:985
+#: widgets/testimonial/testimonial.php:1030
+#: widgets/testimonial/testimonial.php:1089 widgets/video/video-icon.php:110
+msgid "Color"
+msgstr ""
+
+#: admin/lib/csf/fields/background/background.php:279
+msgid "Luminosity"
+msgstr ""
+
+#: admin/lib/csf/fields/backup/backup.php:26
+msgid "Import"
+msgstr ""
+
+#: admin/lib/csf/fields/backup/backup.php:29
+msgid "Export & Download"
+msgstr ""
+
+#: admin/lib/csf/fields/border/border.php:25
+#: admin/lib/csf/fields/spacing/spacing.php:25
+msgid "top"
+msgstr ""
+
+#: admin/lib/csf/fields/border/border.php:26
+#: admin/lib/csf/fields/spacing/spacing.php:26
+msgid "right"
+msgstr ""
+
+#: admin/lib/csf/fields/border/border.php:27
+#: admin/lib/csf/fields/spacing/spacing.php:27
+msgid "bottom"
+msgstr ""
+
+#: admin/lib/csf/fields/border/border.php:28
+#: admin/lib/csf/fields/spacing/spacing.php:28
+msgid "left"
+msgstr ""
+
+#: admin/lib/csf/fields/border/border.php:29
+#: admin/lib/csf/fields/spacing/spacing.php:29
+msgid "all"
+msgstr ""
+
+#: admin/lib/csf/fields/border/border.php:51
+#: admin/lib/csf/fields/typography/typography.php:214
+msgid "Solid"
+msgstr ""
+
+#: admin/lib/csf/fields/border/border.php:52
+#: admin/lib/csf/fields/typography/typography.php:217
+msgid "Dashed"
+msgstr ""
+
+#: admin/lib/csf/fields/border/border.php:53
+#: admin/lib/csf/fields/typography/typography.php:216
+msgid "Dotted"
+msgstr ""
+
+#: admin/lib/csf/fields/border/border.php:54
+#: admin/lib/csf/fields/typography/typography.php:215
+msgid "Double"
+msgstr ""
+
+#: admin/lib/csf/fields/border/border.php:55
+msgid "Inset"
+msgstr ""
+
+#: admin/lib/csf/fields/border/border.php:56
+msgid "Outset"
+msgstr ""
+
+#: admin/lib/csf/fields/border/border.php:57
+msgid "Groove"
+msgstr ""
+
+#: admin/lib/csf/fields/border/border.php:58
+msgid "ridge"
+msgstr ""
+
+#: admin/lib/csf/fields/border/border.php:59
+#: admin/lib/csf/fields/typography/typography.php:199
+#: admin/lib/csf/fields/typography/typography.php:213
+#: widgets/flip-box/flip-box.php:219 widgets/flip-box/flip-box.php:469
+#: widgets/team/team.php:803
+msgid "None"
+msgstr ""
+
+#: admin/lib/csf/fields/checkbox/checkbox.php:23
+msgid "Check/Uncheck All"
+msgstr ""
+
+#: admin/lib/csf/fields/dimensions/dimensions.php:22
+msgid "width"
+msgstr ""
+
+#: admin/lib/csf/fields/dimensions/dimensions.php:23
+msgid "height"
+msgstr ""
+
+#: admin/lib/csf/fields/gallery/gallery.php:20
+msgid "Add Gallery"
+msgstr ""
+
+#: admin/lib/csf/fields/gallery/gallery.php:21
+msgid "Edit Gallery"
+msgstr ""
+
+#: admin/lib/csf/fields/gallery/gallery.php:22
+msgid "Clear"
+msgstr ""
+
+#: admin/lib/csf/fields/group/group.php:41
+#: admin/lib/csf/fields/repeater/repeater.php:27
+msgid "Error: Field ID conflict."
+msgstr ""
+
+#: admin/lib/csf/fields/group/group.php:52
+#: admin/lib/csf/fields/group/group.php:107
+#: admin/lib/csf/fields/repeater/repeater.php:48
+#: admin/lib/csf/fields/repeater/repeater.php:76
+msgid "Are you sure to delete this item?"
+msgstr ""
+
+#: admin/lib/csf/fields/group/group.php:141
+#: admin/lib/csf/fields/repeater/repeater.php:89
+msgid "You cannot add more."
+msgstr ""
+
+#: admin/lib/csf/fields/group/group.php:142
+#: admin/lib/csf/fields/repeater/repeater.php:90
+msgid "You cannot remove more."
+msgstr ""
+
+#: admin/lib/csf/fields/icon/icon.php:20 admin/lib/csf/fields/icon/icon.php:53
+msgid "Add Icon"
+msgstr ""
+
+#: admin/lib/csf/fields/icon/icon.php:21
+msgid "Remove Icon"
+msgstr ""
+
+#: admin/lib/csf/fields/link/link.php:20
+msgid "Add Link"
+msgstr ""
+
+#: admin/lib/csf/fields/link/link.php:21
+msgid "Edit Link"
+msgstr ""
+
+#: admin/lib/csf/fields/link/link.php:22
+msgid "Remove Link"
+msgstr ""
+
+#: admin/lib/csf/fields/link_color/link_color.php:37
+#: widgets/accordion/accordion.php:188 widgets/arrow/arrow.php:277
+#: widgets/blog/blog.php:995 widgets/blog/blog.php:1116
+#: widgets/blog/blog.php:1415 widgets/blog/blog.php:1768
+#: widgets/button/button.php:212 widgets/contact-form/contact-form7.php:690
+#: widgets/flip-box/flip-box.php:1956 widgets/icon-box/icon-box.php:550
+#: widgets/icon-box/icon-box.php:1213 widgets/icon-box/icon-box.php:1574
+#: widgets/icon-box/icon-box.php:1803 widgets/image-box/image-box.php:428
+#: widgets/image-box/image-box.php:776 widgets/image-box/image-box.php:1289
+#: widgets/image-box/image-box.php:1643 widgets/image-box/image-box.php:1864
+#: widgets/image-slider/image-slider.php:634
+#: widgets/image-slider/image-slider.php:1277
+#: widgets/image-slider/image-slider.php:1619 widgets/team/team.php:302
+#: widgets/team/team.php:957 widgets/testimonial/testimonial.php:979
+msgid "Hover"
+msgstr ""
+
+#: admin/lib/csf/fields/link_color/link_color.php:38
+#: widgets/accordion/accordion.php:94 widgets/accordion/accordion.php:305
+#: widgets/accordion/accordion.php:424 widgets/accordion/accordion.php:604
+#: widgets/arrow/arrow.php:407 widgets/blog/blog.php:1872
+#: widgets/image-slider/image-slider.php:1723
+#: widgets/testimonial/testimonial.php:1083
+msgid "Active"
+msgstr ""
+
+#: admin/lib/csf/fields/link_color/link_color.php:39
+msgid "Visited"
+msgstr ""
+
+#: admin/lib/csf/fields/link_color/link_color.php:40
+msgid "Focus"
+msgstr ""
+
+#: admin/lib/csf/fields/map/map.php:24
+msgid "Latitude"
+msgstr ""
+
+#: admin/lib/csf/fields/map/map.php:25
+msgid "Longitude"
+msgstr ""
+
+#: admin/lib/csf/fields/media/media.php:25
+#: admin/lib/csf/fields/upload/upload.php:24
+msgid "Upload"
+msgstr ""
+
+#: admin/lib/csf/fields/media/media.php:26
+#: admin/lib/csf/fields/upload/upload.php:25
+msgid "Remove"
+msgstr ""
+
+#: admin/lib/csf/fields/sorter/sorter.php:21
+msgid "Enabled"
+msgstr ""
+
+#: admin/lib/csf/fields/sorter/sorter.php:22
+msgid "Disabled"
+msgstr ""
+
+#: admin/lib/csf/fields/switcher/switcher.php:20
+#: widgets/flip-box/flip-box.php:95
+msgid "On"
+msgstr ""
+
+#: admin/lib/csf/fields/switcher/switcher.php:21
+#: widgets/flip-box/flip-box.php:96
+msgid "Off"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:96
+msgid "Font Family"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:97
+msgid "Select a font"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:105
+msgid "Backup Font Family"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:119
+#: admin/lib/csf/fields/typography/typography.php:132
+#: admin/lib/csf/fields/typography/typography.php:145
+#: admin/lib/csf/fields/typography/typography.php:160
+#: admin/lib/csf/fields/typography/typography.php:176
+#: admin/lib/csf/fields/typography/typography.php:189
+#: admin/lib/csf/fields/typography/typography.php:203
+#: admin/lib/csf/fields/typography/typography.php:221 widgets/blog/blog.php:655
+#: widgets/flip-box/flip-box.php:1180 widgets/icon-box/icon-box.php:321
+#: widgets/image-box/image-box.php:701
+#: widgets/image-slider/image-slider.php:548 widgets/team/team.php:133
+msgid "Default"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:130
+msgid "Font Style"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:144
+#: admin/lib/csf/fields/typography/typography.php:145
+msgid "Load Extra Styles"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:158
+msgid "Subset"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:168
+#: widgets/image-slider/image-slider.php:217
+msgid "Text Align"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:170
+msgid "Inherit"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:171
+#: widgets/arrow/arrow.php:133 widgets/arrow/arrow.php:323
+#: widgets/blog/blog.php:489 widgets/blog/blog.php:514
+#: widgets/blog/blog.php:1581 widgets/breadcrumb/breadcrumb.php:44
+#: widgets/button/button.php:54 widgets/contact-form/contact-form7.php:123
+#: widgets/content-switch/content-switch.php:53
+#: widgets/content-switch/content-switch.php:114
+#: widgets/content-switch/content-switch.php:199
+#: widgets/flip-box/flip-box.php:297 widgets/flip-box/flip-box.php:562
+#: widgets/icon-box/icon-box.php:81 widgets/icon-box/icon-box.php:140
+#: widgets/icon-box/icon-box.php:181 widgets/icon-box/icon-box.php:931
+#: widgets/image-box/image-box.php:66 widgets/image-box/image-box.php:150
+#: widgets/image-box/image-box.php:851
+#: widgets/image-slider/image-slider.php:221
+#: widgets/image-slider/image-slider.php:247
+#: widgets/image-slider/image-slider.php:317
+#: widgets/image-slider/image-slider.php:1432 widgets/logo/logo.php:77
+#: widgets/menu/nav-menu.php:110 widgets/menu/nav-menu.php:323
+#: widgets/search/search.php:84 widgets/team/team.php:105
+#: widgets/testimonial/testimonial.php:792 widgets/video/video-icon.php:81
+msgid "Left"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:172
+#: widgets/arrow/arrow.php:137 widgets/arrow/arrow.php:327
+#: widgets/blog/blog.php:493 widgets/blog/blog.php:1212
+#: widgets/blog/blog.php:1585 widgets/breadcrumb/breadcrumb.php:48
+#: widgets/button/button.php:58 widgets/contact-form/contact-form7.php:127
+#: widgets/content-switch/content-switch.php:57
+#: widgets/flip-box/flip-box.php:301 widgets/flip-box/flip-box.php:332
+#: widgets/flip-box/flip-box.php:566 widgets/flip-box/flip-box.php:597
+#: widgets/icon-box/icon-box.php:144 widgets/icon-box/icon-box.php:185
+#: widgets/icon-box/icon-box.php:935 widgets/image-box/image-box.php:154
+#: widgets/image-box/image-box.php:855
+#: widgets/image-slider/image-slider.php:225
+#: widgets/image-slider/image-slider.php:251
+#: widgets/image-slider/image-slider.php:277
+#: widgets/image-slider/image-slider.php:1436 widgets/logo/logo.php:81
+#: widgets/menu/nav-menu.php:114 widgets/menu/nav-menu.php:327
+#: widgets/search/search.php:88 widgets/team/team.php:109
+#: widgets/testimonial/testimonial.php:796 widgets/video/video-icon.php:85
+msgid "Center"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:173
+#: widgets/arrow/arrow.php:141 widgets/arrow/arrow.php:331
+#: widgets/blog/blog.php:497 widgets/blog/blog.php:522
+#: widgets/blog/blog.php:1589 widgets/breadcrumb/breadcrumb.php:52
+#: widgets/button/button.php:62 widgets/contact-form/contact-form7.php:131
+#: widgets/content-switch/content-switch.php:61
+#: widgets/content-switch/content-switch.php:118
+#: widgets/content-switch/content-switch.php:203
+#: widgets/flip-box/flip-box.php:305 widgets/flip-box/flip-box.php:570
+#: widgets/icon-box/icon-box.php:89 widgets/icon-box/icon-box.php:189
+#: widgets/icon-box/icon-box.php:939 widgets/image-box/image-box.php:74
+#: widgets/image-box/image-box.php:158 widgets/image-box/image-box.php:859
+#: widgets/image-slider/image-slider.php:229
+#: widgets/image-slider/image-slider.php:255
+#: widgets/image-slider/image-slider.php:325
+#: widgets/image-slider/image-slider.php:1440 widgets/logo/logo.php:85
+#: widgets/menu/nav-menu.php:118 widgets/menu/nav-menu.php:331
+#: widgets/search/search.php:92 widgets/team/team.php:113
+#: widgets/testimonial/testimonial.php:800 widgets/video/video-icon.php:89
+msgid "Right"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:174
+msgid "Justify"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:175
+msgid "Initial"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:184
+msgid "Font Variant"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:187
+msgid "Small Caps"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:188
+msgid "All Small Caps"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:197
+msgid "Text Transform"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:200
+msgid "Capitalize"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:201
+msgid "Uppercase"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:202
+msgid "Lowercase"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:211
+msgid "Text Decoration"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:218
+msgid "Wavy"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:219
+msgid "Overline"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:220
+msgid "Line-through"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:233
+#: widgets/accordion/accordion.php:547 widgets/blog/blog.php:1337
+#: widgets/button/button.php:401 widgets/flip-box/flip-box.php:906
+#: widgets/flip-box/flip-box.php:1019 widgets/flip-box/flip-box.php:1863
+#: widgets/icon-box/icon-box.php:814 widgets/icon-box/icon-box.php:1480
+#: widgets/image-box/image-box.php:923 widgets/image-box/image-box.php:1549
+#: widgets/image-slider/image-slider.php:979
+#: widgets/image-slider/image-slider.php:1199 widgets/menu/nav-menu.php:355
+#: widgets/testimonial/testimonial.php:547 widgets/video/video-icon.php:130
+msgid "Font Size"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:245
+msgid "Line Height"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:257
+msgid "Letter Spacing"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:269
+msgid "Word Spacing"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:284
+msgid "Font Color"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:295
+msgid "Custom Style"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:362
+msgid "Custom Web Fonts"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:368
+msgid "Safe Web Fonts"
+msgstr ""
+
+#: admin/lib/csf/fields/typography/typography.php:388
+msgid "Google Web Fonts"
+msgstr ""
+
+#: admin/lib/csf/functions/actions.php:72
+#: admin/lib/csf/functions/actions.php:110
+msgid "Error: Invalid key."
+msgstr ""
+
+#: admin/lib/csf/functions/actions.php:114
+msgid "Error: The response is not a valid JSON response."
+msgstr ""
+
+#: admin/lib/csf/functions/actions.php:174
+msgid "Error: Invalid term ID."
+msgstr ""
+
+#: admin/lib/csf/functions/actions.php:180
+msgid "Error: You do not have permission to do that."
+msgstr ""
+
+#: admin/lib/csf/functions/validate.php:14
+#: admin/lib/csf/functions/validate.php:86
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: admin/lib/csf/functions/validate.php:32
+#: admin/lib/csf/functions/validate.php:106
+msgid "Please enter a valid number."
+msgstr ""
+
+#: admin/lib/csf/functions/validate.php:50
+#: admin/lib/csf/functions/validate.php:126
+msgid "This field is required."
+msgstr ""
+
+#: admin/lib/csf/functions/validate.php:68
+#: admin/lib/csf/functions/validate.php:146
+msgid "Please enter a valid URL."
+msgstr ""
+
+#: admin/page.php:34 admin/page.php:35
+msgid "FlexiType"
+msgstr ""
+
+#: admin/page.php:48 admin/page.php:49
+msgid "Help & Updates"
+msgstr ""
+
+#: admin/page.php:57 admin/page.php:58 includes/post-type-builder.php:73
+msgid "Custom Templates"
+msgstr ""
+
+#: controls/sticky.php:14
+msgid "FlexiType Sticky"
+msgstr ""
+
+#: controls/sticky.php:22
+msgid "Enable"
+msgstr ""
+
+#: controls/sticky.php:31
+msgid "Sticky Style"
+msgstr ""
+
+#: controls/sticky.php:36
+msgid "Animate"
+msgstr ""
+
+#: controls/sticky.php:48
+msgid "Offset"
+msgstr ""
+
+#: controls/sticky.php:71 widgets/accordion/accordion.php:260
+#: widgets/accordion/accordion.php:325 widgets/accordion/accordion.php:384
+#: widgets/accordion/accordion.php:441 widgets/accordion/accordion.php:537
+#: widgets/accordion/accordion.php:620 widgets/arrow/arrow.php:175
+#: widgets/arrow/arrow.php:294 widgets/blog/blog.php:792
+#: widgets/blog/blog.php:875 widgets/blog/blog.php:1056
+#: widgets/blog/blog.php:1309 widgets/blog/blog.php:1512
+#: widgets/blog/blog.php:1676 widgets/blog/blog.php:1785
+#: widgets/button/button.php:315 widgets/button/button.php:373
+#: widgets/contact-form/contact-form7.php:110
+#: widgets/content-switch/content-switch.php:354
+#: widgets/flip-box/flip-box.php:896 widgets/flip-box/flip-box.php:1009
+#: widgets/flip-box/flip-box.php:1193 widgets/flip-box/flip-box.php:1250
+#: widgets/flip-box/flip-box.php:1374 widgets/flip-box/flip-box.php:1553
+#: widgets/flip-box/flip-box.php:1652 widgets/flip-box/flip-box.php:1758
+#: widgets/flip-box/flip-box.php:1829 widgets/flip-box/flip-box.php:1973
+#: widgets/flip-box/flip-box.php:2043 widgets/icon-box/icon-box.php:501
+#: widgets/icon-box/icon-box.php:556 widgets/icon-box/icon-box.php:643
+#: widgets/icon-box/icon-box.php:729 widgets/icon-box/icon-box.php:774
+#: widgets/icon-box/icon-box.php:1158 widgets/icon-box/icon-box.php:1260
+#: widgets/icon-box/icon-box.php:1357 widgets/icon-box/icon-box.php:1446
+#: widgets/icon-box/icon-box.php:1612 widgets/icon-box/icon-box.php:1682
+#: widgets/image-box/image-box.php:379 widgets/image-box/image-box.php:434
+#: widgets/image-box/image-box.php:520 widgets/image-box/image-box.php:606
+#: widgets/image-box/image-box.php:883 widgets/image-box/image-box.php:1234
+#: widgets/image-box/image-box.php:1336 widgets/image-box/image-box.php:1433
+#: widgets/image-box/image-box.php:1515 widgets/image-box/image-box.php:1681
+#: widgets/image-box/image-box.php:1752
+#: widgets/image-slider/image-slider.php:674
+#: widgets/image-slider/image-slider.php:760
+#: widgets/image-slider/image-slider.php:784
+#: widgets/image-slider/image-slider.php:887
+#: widgets/image-slider/image-slider.php:949
+#: widgets/image-slider/image-slider.php:1171
+#: widgets/image-slider/image-slider.php:1293
+#: widgets/image-slider/image-slider.php:1363
+#: widgets/image-slider/image-slider.php:1527
+#: widgets/image-slider/image-slider.php:1636 widgets/menu/nav-menu.php:206
+#: widgets/search/search.php:143 widgets/search/search.php:171
+#: widgets/team/team.php:354 widgets/team/team.php:421
+#: widgets/team/team.php:468 widgets/team/team.php:564
+#: widgets/team/team.php:589 widgets/team/team.php:693
+#: widgets/team/team.php:873 widgets/team/team.php:982
+#: widgets/team/team.php:1017 widgets/testimonial/testimonial.php:478
+#: widgets/testimonial/testimonial.php:887
+#: widgets/testimonial/testimonial.php:996 widgets/video/video-icon.php:120
+#: widgets/video/video-icon.php:198
+msgid "Background"
+msgstr ""
+
+#: controls/sticky.php:86 widgets/accordion/accordion.php:411
+#: widgets/accordion/accordion.php:498 widgets/blog/blog.php:627
+#: widgets/blog/blog.php:804 widgets/blog/blog.php:954
+#: widgets/blog/blog.php:1094 widgets/blog/blog.php:1269
+#: widgets/blog/blog.php:1391 widgets/blog/blog.php:1455
+#: widgets/button/button.php:199 widgets/button/button.php:252
+#: widgets/button/button.php:455 widgets/contact-form/contact-form7.php:83
+#: widgets/contact-form/contact-form7.php:300
+#: widgets/contact-form/contact-form7.php:442
+#: widgets/contact-form/contact-form7.php:529
+#: widgets/contact-form/contact-form7.php:632 widgets/flip-box/flip-box.php:853
+#: widgets/flip-box/flip-box.php:980 widgets/flip-box/flip-box.php:1093
+#: widgets/flip-box/flip-box.php:1203 widgets/flip-box/flip-box.php:1274
+#: widgets/flip-box/flip-box.php:1398 widgets/flip-box/flip-box.php:1586
+#: widgets/flip-box/flip-box.php:1685 widgets/flip-box/flip-box.php:1794
+#: widgets/flip-box/flip-box.php:1926 widgets/icon-box/icon-box.php:538
+#: widgets/icon-box/icon-box.php:592 widgets/icon-box/icon-box.php:907
+#: widgets/icon-box/icon-box.php:974 widgets/icon-box/icon-box.php:1175
+#: widgets/icon-box/icon-box.php:1411 widgets/icon-box/icon-box.php:1544
+#: widgets/image-box/image-box.php:416 widgets/image-box/image-box.php:469
+#: widgets/image-box/image-box.php:714 widgets/image-box/image-box.php:997
+#: widgets/image-box/image-box.php:1037 widgets/image-box/image-box.php:1251
+#: widgets/image-box/image-box.php:1469 widgets/image-box/image-box.php:1613
+#: widgets/image-slider/image-slider.php:909
+#: widgets/image-slider/image-slider.php:1131
+#: widgets/image-slider/image-slider.php:1253
+#: widgets/menu/vertical-menu.php:125 widgets/search/search.php:211
+#: widgets/team/team.php:630 widgets/testimonial/testimonial.php:510
+msgid "Padding"
+msgstr ""
+
+#: controls/sticky.php:102 widgets/contact-form/contact-form7.php:680
+msgid "Box Shadow"
+msgstr ""
+
+#: includes/post-type-builder.php:74
+msgid "Cusstom Templates"
+msgstr ""
+
+#: includes/post-type-builder.php:79 includes/settings.php:89
+msgid "dashicons-index-card"
+msgstr ""
+
+#: includes/query-builder.php:8 includes/query-builder.php:10
+msgid "Comment"
+msgstr ""
+
+#: includes/query-builder.php:12
+msgid "Comments"
+msgstr ""
+
+#: includes/settings.php:16
+msgid "Options"
+msgstr ""
+
+#: includes/settings.php:18
+msgid "FlexiType Options"
+msgstr ""
+
+#: includes/settings.php:33
+msgid "A Simple and Lightweight Framework"
+msgstr ""
+
+#: includes/settings.php:50
+msgid "Post Types"
+msgstr ""
+
+#: includes/settings.php:51
+msgid "Custom Post Types are Listed"
+msgstr ""
+
+#: includes/settings.php:57 includes/settings.php:124
+msgid "Plural Label *"
+msgstr ""
+
+#: includes/settings.php:58
+msgid "Used for the post type admin menu"
+msgstr ""
+
+#: includes/settings.php:64 includes/settings.php:131
+msgid "Singular Label *"
+msgstr ""
+
+#: includes/settings.php:65 includes/settings.php:132
+msgid "Used when a singular label is needed"
+msgstr ""
+
+#: includes/settings.php:71 includes/settings.php:145
+msgid "Post Type Slug *"
+msgstr ""
+
+#: includes/settings.php:72
+msgid "Lower case letters, underscores and dashes only, Max 20 characters"
+msgstr ""
+
+#: includes/settings.php:78
+msgid "Dashicon Class*"
+msgstr ""
+
+#: includes/settings.php:79
+msgid ""
+"<a target=\"__blank\" href=\"https://developer.wordpress.org/resource/"
+"dashicons/\">Dashicons class name</a> to use for menu icon"
+msgstr ""
+
+#: includes/settings.php:86
+msgid "Services"
+msgstr ""
+
+#: includes/settings.php:87
+msgid "Service"
+msgstr ""
+
+#: includes/settings.php:88 includes/settings.php:156
+msgid "service"
+msgstr ""
+
+#: includes/settings.php:92
+msgid "Portfolios"
+msgstr ""
+
+#: includes/settings.php:93
+msgid "Portfolio"
+msgstr ""
+
+#: includes/settings.php:94 includes/settings.php:162
+msgid "portfolio"
+msgstr ""
+
+#: includes/settings.php:95
+msgid "dashicons-portfolio"
+msgstr ""
+
+#: includes/settings.php:108
+msgid "Taxonomy Builder"
+msgstr ""
+
+#: includes/settings.php:117
+msgid "Taxonomy Types"
+msgstr ""
+
+#: includes/settings.php:118
+msgid "Custom Taxonomy are Listed"
+msgstr ""
+
+#: includes/settings.php:125
+msgid "Used for the taxonomy admin menu item"
+msgstr ""
+
+#: includes/settings.php:138
+msgid "Taxonomy Slug *"
+msgstr ""
+
+#: includes/settings.php:139
+msgid "Lower case letters, underscores and dashes only, Max 32 characters"
+msgstr ""
+
+#: includes/settings.php:146
+msgid ""
+"You need make a relationship with the default Posts/Pages or custom post "
+"types that have been created. Please provide the slug of post type"
+msgstr ""
+
+#: includes/settings.php:153
+msgid "Service Categories"
+msgstr ""
+
+#: includes/settings.php:154
+msgid "Service Category"
+msgstr ""
+
+#: includes/settings.php:155
+msgid "service-category"
+msgstr ""
+
+#: includes/settings.php:159
+msgid "Portfolio Categories"
+msgstr ""
+
+#: includes/settings.php:160
+msgid "Portfolio Category"
+msgstr ""
+
+#: includes/settings.php:161
+msgid "portfolio-category"
+msgstr ""
+
+#: widgets/accordion/accordion.php:20
+msgid "Accordion"
+msgstr ""
+
+#: widgets/accordion/accordion.php:44 widgets/accordion/accordion.php:131
+#: widgets/accordion/accordion.php:153 widgets/accordion/accordion.php:466
+#: widgets/blog/blog.php:1015 widgets/content-switch/content-switch.php:146
+#: widgets/content-switch/content-switch.php:155
+#: widgets/content-switch/content-switch.php:231
+#: widgets/content-switch/content-switch.php:240
+#: widgets/flip-box/flip-box.php:194 widgets/flip-box/flip-box.php:281
+#: widgets/flip-box/flip-box.php:444 widgets/flip-box/flip-box.php:546
+#: widgets/image-slider/image-slider.php:53
+#: widgets/image-slider/image-slider.php:774 widgets/team/team.php:347
+#: widgets/team/team.php:579
+msgid "Content"
+msgstr ""
+
+#: widgets/accordion/accordion.php:52
+msgid "Active as Default"
+msgstr ""
+
+#: widgets/accordion/accordion.php:61
+msgid "Enable Tab Icon"
+msgstr ""
+
+#: widgets/accordion/accordion.php:79 widgets/accordion/accordion.php:103
+#: widgets/accordion/accordion.php:511 widgets/blog/blog.php:706
+#: widgets/button/button.php:85 widgets/content-switch/content-switch.php:103
+#: widgets/content-switch/content-switch.php:188
+#: widgets/content-switch/content-switch.php:308
+#: widgets/flip-box/flip-box.php:223 widgets/flip-box/flip-box.php:473
+#: widgets/icon-box/icon-box.php:618 widgets/image-box/image-box.php:117
+#: widgets/image-box/image-box.php:495
+#: widgets/image-slider/image-slider.php:650 widgets/menu/nav-menu.php:345
+#: widgets/search/search.php:50 widgets/team/team.php:184
+#: widgets/team/team.php:655 widgets/video/video-icon.php:57
+msgid "Icon"
+msgstr ""
+
+#: widgets/accordion/accordion.php:120 widgets/accordion/accordion.php:350
+#: widgets/blog/blog.php:1031 widgets/content-switch/content-switch.php:135
+#: widgets/content-switch/content-switch.php:220
+#: widgets/content-switch/content-switch.php:274
+#: widgets/flip-box/flip-box.php:269 widgets/flip-box/flip-box.php:368
+#: widgets/flip-box/flip-box.php:519 widgets/flip-box/flip-box.php:633
+#: widgets/flip-box/flip-box.php:1296 widgets/flip-box/flip-box.php:1420
+#: widgets/icon-box/icon-box.php:228 widgets/icon-box/icon-box.php:279
+#: widgets/icon-box/icon-box.php:670 widgets/icon-box/icon-box.php:996
+#: widgets/image-box/image-box.php:172 widgets/image-box/image-box.php:223
+#: widgets/image-box/image-box.php:547 widgets/image-box/image-box.php:1059
+#: widgets/image-slider/image-slider.php:112
+#: widgets/image-slider/image-slider.php:712
+#: widgets/image-slider/image-slider.php:852
+msgid "Title"
+msgstr ""
+
+#: widgets/accordion/accordion.php:128
+#: widgets/content-switch/content-switch.php:143
+#: widgets/content-switch/content-switch.php:228
+#: widgets/flip-box/flip-box.php:191 widgets/flip-box/flip-box.php:441
+msgid "Content Type"
+msgstr ""
+
+#: widgets/accordion/accordion.php:132
+#: widgets/content-switch/content-switch.php:147
+#: widgets/content-switch/content-switch.php:232
+#: widgets/flip-box/flip-box.php:195 widgets/flip-box/flip-box.php:445
+msgid "Template"
+msgstr ""
+
+#: widgets/accordion/accordion.php:140
+#: widgets/content-switch/content-switch.php:167
+#: widgets/content-switch/content-switch.php:252
+#: widgets/flip-box/flip-box.php:203 widgets/flip-box/flip-box.php:453
+msgid "Select a Template"
+msgstr ""
+
+#: widgets/accordion/accordion.php:155
+msgid "Default content"
+msgstr ""
+
+#: widgets/accordion/accordion.php:156
+#: widgets/content-switch/content-switch.php:158
+#: widgets/content-switch/content-switch.php:243
+#: widgets/flip-box/flip-box.php:284 widgets/flip-box/flip-box.php:549
+msgid "Type your content here"
+msgstr ""
+
+#: widgets/accordion/accordion.php:165
+msgid "Accordion Items"
+msgstr ""
+
+#: widgets/accordion/accordion.php:170
+msgid "Accordion #1"
+msgstr ""
+
+#: widgets/accordion/accordion.php:171 widgets/accordion/accordion.php:175
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, "
+"luctus nec."
+msgstr ""
+
+#: widgets/accordion/accordion.php:174
+msgid "Accordion #2"
+msgstr ""
+
+#: widgets/accordion/accordion.php:184
+msgid "Active Behavior"
+msgstr ""
+
+#: widgets/accordion/accordion.php:187
+msgid "Click"
+msgstr ""
+
+#: widgets/accordion/accordion.php:196
+msgid "Icon Alignment"
+msgstr ""
+
+#: widgets/accordion/accordion.php:200 widgets/blog/blog.php:672
+#: widgets/icon-box/icon-box.php:298
+msgid "Start"
+msgstr ""
+
+#: widgets/accordion/accordion.php:204 widgets/blog/blog.php:676
+#: widgets/icon-box/icon-box.php:152 widgets/icon-box/icon-box.php:302
+msgid "End"
+msgstr ""
+
+#: widgets/accordion/accordion.php:215
+msgid "Icon Gap"
+msgstr ""
+
+#: widgets/accordion/accordion.php:230 widgets/blog/blog.php:478
+msgid "Item"
+msgstr ""
+
+#: widgets/accordion/accordion.php:270 widgets/arrow/arrow.php:234
+#: widgets/arrow/arrow.php:374 widgets/blog/blog.php:913
+#: widgets/blog/blog.php:1319 widgets/blog/blog.php:1839
+#: widgets/button/button.php:383 widgets/content-switch/content-switch.php:75
+#: widgets/content-switch/content-switch.php:335
+#: widgets/flip-box/flip-box.php:1842 widgets/icon-box/icon-box.php:1459
+#: widgets/image-box/image-box.php:1528
+#: widgets/image-slider/image-slider.php:1181
+#: widgets/image-slider/image-slider.php:1690 widgets/team/team.php:705
+#: widgets/testimonial/testimonial.php:453
+#: widgets/testimonial/testimonial.php:643
+#: widgets/testimonial/testimonial.php:1050
+msgid "Gap"
+msgstr ""
+
+#: widgets/accordion/accordion.php:293 widgets/accordion/accordion.php:336
+#: widgets/accordion/accordion.php:400 widgets/accordion/accordion.php:592
+#: widgets/arrow/arrow.php:252 widgets/arrow/arrow.php:384
+#: widgets/blog/blog.php:597 widgets/blog/blog.php:616
+#: widgets/blog/blog.php:826 widgets/blog/blog.php:983
+#: widgets/blog/blog.php:1083 widgets/blog/blog.php:1257
+#: widgets/blog/blog.php:1402 widgets/blog/blog.php:1467
+#: widgets/blog/blog.php:1743 widgets/blog/blog.php:1849
+#: widgets/button/button.php:187 widgets/button/button.php:264
+#: widgets/button/button.php:466 widgets/contact-form/contact-form7.php:282
+#: widgets/contact-form/contact-form7.php:430
+#: widgets/contact-form/contact-form7.php:517
+#: widgets/contact-form/contact-form7.php:667
+#: widgets/content-switch/content-switch.php:410
+#: widgets/content-switch/content-switch.php:485
+#: widgets/flip-box/flip-box.php:840 widgets/flip-box/flip-box.php:957
+#: widgets/flip-box/flip-box.php:1070 widgets/flip-box/flip-box.php:1214
+#: widgets/flip-box/flip-box.php:1608 widgets/flip-box/flip-box.php:1707
+#: widgets/flip-box/flip-box.php:1782 widgets/flip-box/flip-box.php:1940
+#: widgets/icon-box/icon-box.php:526 widgets/icon-box/icon-box.php:581
+#: widgets/icon-box/icon-box.php:884 widgets/icon-box/icon-box.php:1199
+#: widgets/icon-box/icon-box.php:1399 widgets/icon-box/icon-box.php:1558
+#: widgets/image-box/image-box.php:404 widgets/image-box/image-box.php:458
+#: widgets/image-box/image-box.php:725 widgets/image-box/image-box.php:974
+#: widgets/image-box/image-box.php:1275 widgets/image-box/image-box.php:1457
+#: widgets/image-box/image-box.php:1627
+#: widgets/image-slider/image-slider.php:619
+#: widgets/image-slider/image-slider.php:898
+#: widgets/image-slider/image-slider.php:1029
+#: widgets/image-slider/image-slider.php:1119
+#: widgets/image-slider/image-slider.php:1264
+#: widgets/image-slider/image-slider.php:1317
+#: widgets/image-slider/image-slider.php:1594
+#: widgets/image-slider/image-slider.php:1700 widgets/search/search.php:222
+#: widgets/team/team.php:268 widgets/team/team.php:618
+#: widgets/team/team.php:778 widgets/team/team.php:941
+#: widgets/testimonial/testimonial.php:497
+#: widgets/testimonial/testimonial.php:954
+#: widgets/testimonial/testimonial.php:1060 widgets/video/video-icon.php:166
+msgid "Border Radius"
+msgstr ""
+
+#: widgets/accordion/accordion.php:449 widgets/flip-box/flip-box.php:1990
+#: widgets/icon-box/icon-box.php:656 widgets/icon-box/icon-box.php:1269
+#: widgets/icon-box/icon-box.php:1629 widgets/image-box/image-box.php:533
+#: widgets/image-box/image-box.php:1345 widgets/image-box/image-box.php:1699
+#: widgets/menu/nav-menu.php:253
+msgid "Border Color"
+msgstr ""
+
+#: widgets/accordion/accordion.php:569 widgets/arrow/arrow.php:186
+#: widgets/arrow/arrow.php:364 widgets/blog/blog.php:1687
+#: widgets/blog/blog.php:1829 widgets/flip-box/flip-box.php:925
+#: widgets/flip-box/flip-box.php:1038 widgets/flip-box/flip-box.php:1115
+#: widgets/icon-box/icon-box.php:833 widgets/icon-box/icon-box.php:1058
+#: widgets/image-box/image-box.php:942 widgets/image-box/image-box.php:1134
+#: widgets/image-slider/image-slider.php:997
+#: widgets/image-slider/image-slider.php:1538
+#: widgets/image-slider/image-slider.php:1680 widgets/logo/logo.php:139
+#: widgets/team/team.php:729 widgets/team/team.php:887
+#: widgets/testimonial/testimonial.php:632
+#: widgets/testimonial/testimonial.php:898
+#: widgets/testimonial/testimonial.php:1040 widgets/video/video-icon.php:148
+msgid "Max Width"
+msgstr ""
+
+#: widgets/arrow/arrow.php:20 widgets/arrow/arrow.php:45
+msgid "Arrow & Dots"
+msgstr ""
+
+#: widgets/arrow/arrow.php:52 widgets/blog/blog.php:73
+#: widgets/image-slider/image-slider.php:59
+#: widgets/testimonial/testimonial.php:70
+msgid "Unique ID"
+msgstr ""
+
+#: widgets/arrow/arrow.php:54 widgets/blog/blog.php:75
+#: widgets/image-slider/image-slider.php:61
+#: widgets/testimonial/testimonial.php:72
+msgid "sliderid"
+msgstr ""
+
+#: widgets/arrow/arrow.php:61 widgets/blog/blog.php:420
+#: widgets/image-slider/image-slider.php:489
+#: widgets/testimonial/testimonial.php:380
+msgid "Show Arrow"
+msgstr ""
+
+#: widgets/arrow/arrow.php:63 widgets/arrow/arrow.php:74
+#: widgets/blog/blog.php:66 widgets/blog/blog.php:88 widgets/blog/blog.php:103
+#: widgets/blog/blog.php:115 widgets/blog/blog.php:126
+#: widgets/blog/blog.php:320 widgets/blog/blog.php:335
+#: widgets/blog/blog.php:422 widgets/blog/blog.php:433
+#: widgets/blog/blog.php:718 widgets/flip-box/flip-box.php:700
+#: widgets/icon-box/icon-box.php:395 widgets/icon-box/icon-box.php:1729
+#: widgets/image-box/image-box.php:298 widgets/image-box/image-box.php:1799
+#: widgets/image-slider/image-slider.php:78
+#: widgets/image-slider/image-slider.php:122
+#: widgets/image-slider/image-slider.php:209
+#: widgets/image-slider/image-slider.php:379
+#: widgets/image-slider/image-slider.php:394
+#: widgets/image-slider/image-slider.php:404
+#: widgets/image-slider/image-slider.php:491
+#: widgets/image-slider/image-slider.php:502 widgets/team/team.php:174
+#: widgets/testimonial/testimonial.php:61
+#: widgets/testimonial/testimonial.php:253
+#: widgets/testimonial/testimonial.php:271
+#: widgets/testimonial/testimonial.php:382
+#: widgets/testimonial/testimonial.php:396
+msgid "Yes"
+msgstr ""
+
+#: widgets/arrow/arrow.php:64 widgets/arrow/arrow.php:75
+#: widgets/blog/blog.php:65 widgets/blog/blog.php:89 widgets/blog/blog.php:104
+#: widgets/blog/blog.php:116 widgets/blog/blog.php:127
+#: widgets/blog/blog.php:321 widgets/blog/blog.php:336
+#: widgets/blog/blog.php:423 widgets/blog/blog.php:434
+#: widgets/blog/blog.php:719 widgets/flip-box/flip-box.php:701
+#: widgets/icon-box/icon-box.php:396 widgets/icon-box/icon-box.php:1730
+#: widgets/image-box/image-box.php:299 widgets/image-box/image-box.php:1800
+#: widgets/image-slider/image-slider.php:79
+#: widgets/image-slider/image-slider.php:123
+#: widgets/image-slider/image-slider.php:210
+#: widgets/image-slider/image-slider.php:380
+#: widgets/image-slider/image-slider.php:395
+#: widgets/image-slider/image-slider.php:405
+#: widgets/image-slider/image-slider.php:492
+#: widgets/image-slider/image-slider.php:503 widgets/team/team.php:175
+#: widgets/testimonial/testimonial.php:62
+#: widgets/testimonial/testimonial.php:254
+#: widgets/testimonial/testimonial.php:272
+#: widgets/testimonial/testimonial.php:383
+#: widgets/testimonial/testimonial.php:397
+msgid "No"
+msgstr ""
+
+#: widgets/arrow/arrow.php:72 widgets/blog/blog.php:431
+#: widgets/image-slider/image-slider.php:500
+#: widgets/testimonial/testimonial.php:394
+msgid "Show Dots"
+msgstr ""
+
+#: widgets/arrow/arrow.php:83 widgets/blog/blog.php:442
+#: widgets/image-slider/image-slider.php:511
+#: widgets/testimonial/testimonial.php:408
+msgid "Previous Icon"
+msgstr ""
+
+#: widgets/arrow/arrow.php:100 widgets/blog/blog.php:459
+#: widgets/image-slider/image-slider.php:528
+#: widgets/testimonial/testimonial.php:426
+msgid "Next Icon"
+msgstr ""
+
+#: widgets/arrow/arrow.php:119 widgets/blog/blog.php:1544
+#: widgets/image-slider/image-slider.php:1395
+#: widgets/testimonial/testimonial.php:755
+msgid "Arrow Style"
+msgstr ""
+
+#: widgets/arrow/arrow.php:129 widgets/arrow/arrow.php:319
+#: widgets/blog/blog.php:485 widgets/blog/blog.php:1208
+#: widgets/blog/blog.php:1577 widgets/breadcrumb/breadcrumb.php:34
+#: widgets/breadcrumb/breadcrumb.php:40 widgets/button/button.php:50
+#: widgets/contact-form/contact-form7.php:119
+#: widgets/content-switch/content-switch.php:49
+#: widgets/flip-box/flip-box.php:558 widgets/icon-box/icon-box.php:177
+#: widgets/icon-box/icon-box.php:294 widgets/icon-box/icon-box.php:927
+#: widgets/image-box/image-box.php:146 widgets/image-box/image-box.php:847
+#: widgets/image-slider/image-slider.php:1428 widgets/logo/logo.php:73
+#: widgets/menu/nav-menu.php:319 widgets/search/search.php:80
+#: widgets/team/team.php:101 widgets/testimonial/testimonial.php:788
+#: widgets/video/video-icon.php:77
+msgid "Alignment"
+msgstr ""
+
+#: widgets/arrow/arrow.php:211 widgets/blog/blog.php:1712
+#: widgets/image-slider/image-slider.php:1563 widgets/search/search.php:116
+#: widgets/team/team.php:753 widgets/team/team.php:914
+#: widgets/testimonial/testimonial.php:923
+msgid "Icon Size"
+msgstr ""
+
+#: widgets/arrow/arrow.php:264 widgets/arrow/arrow.php:395
+#: widgets/blog/blog.php:815 widgets/blog/blog.php:966
+#: widgets/blog/blog.php:1105 widgets/blog/blog.php:1280
+#: widgets/blog/blog.php:1755 widgets/blog/blog.php:1860
+#: widgets/contact-form/contact-form7.php:96
+#: widgets/contact-form/contact-form7.php:319
+#: widgets/contact-form/contact-form7.php:455
+#: widgets/contact-form/contact-form7.php:542
+#: widgets/contact-form/contact-form7.php:645 widgets/flip-box/flip-box.php:969
+#: widgets/flip-box/flip-box.php:1082 widgets/flip-box/flip-box.php:1285
+#: widgets/flip-box/flip-box.php:1320 widgets/flip-box/flip-box.php:1356
+#: widgets/flip-box/flip-box.php:1409 widgets/flip-box/flip-box.php:1457
+#: widgets/flip-box/flip-box.php:1493 widgets/flip-box/flip-box.php:1597
+#: widgets/flip-box/flip-box.php:1696 widgets/icon-box/icon-box.php:896
+#: widgets/icon-box/icon-box.php:985 widgets/icon-box/icon-box.php:1076
+#: widgets/icon-box/icon-box.php:1187 widgets/image-box/image-box.php:986
+#: widgets/image-box/image-box.php:1048 widgets/image-box/image-box.php:1152
+#: widgets/image-box/image-box.php:1263 widgets/image-box/image-box.php:1480
+#: widgets/image-slider/image-slider.php:920
+#: widgets/image-slider/image-slider.php:1040
+#: widgets/image-slider/image-slider.php:1143
+#: widgets/image-slider/image-slider.php:1606
+#: widgets/image-slider/image-slider.php:1711 widgets/team/team.php:523
+#: widgets/team/team.php:642 widgets/testimonial/testimonial.php:741
+#: widgets/testimonial/testimonial.php:966
+#: widgets/testimonial/testimonial.php:1071
+msgid "Margin"
+msgstr ""
+
+#: widgets/arrow/arrow.php:309 widgets/blog/blog.php:1800
+#: widgets/image-slider/image-slider.php:1651
+#: widgets/testimonial/testimonial.php:1011
+msgid "Dot Style"
+msgstr ""
+
+#: widgets/arrow/arrow.php:424 widgets/blog/blog.php:557
+#: widgets/blog/blog.php:1888 widgets/contact-form/contact-form7.php:575
+#: widgets/content-switch/content-switch.php:374
+#: widgets/content-switch/content-switch.php:449
+#: widgets/flip-box/flip-box.php:1136 widgets/image-box/image-box.php:657
+#: widgets/image-slider/image-slider.php:1740 widgets/logo/logo.php:114
+#: widgets/testimonial/testimonial.php:1100
+msgid "Width"
+msgstr ""
+
+#: widgets/blog/blog.php:55
+msgid "Blog Settings"
+msgstr ""
+
+#: widgets/blog/blog.php:61
+msgid "Blog Slider"
+msgstr ""
+
+#: widgets/blog/blog.php:86
+msgid "Show Date"
+msgstr ""
+
+#: widgets/blog/blog.php:101
+msgid "Show Username"
+msgstr ""
+
+#: widgets/blog/blog.php:113
+msgid "Show Comment"
+msgstr ""
+
+#: widgets/blog/blog.php:124
+msgid "Show Image"
+msgstr ""
+
+#: widgets/blog/blog.php:136 widgets/testimonial/testimonial.php:197
+msgid "Columns On Desktop"
+msgstr ""
+
+#: widgets/blog/blog.php:139 widgets/blog/blog.php:159
+#: widgets/blog/blog.php:177 widgets/testimonial/testimonial.php:218
+#: widgets/testimonial/testimonial.php:236
+msgid "Column 1"
+msgstr ""
+
+#: widgets/blog/blog.php:140 widgets/blog/blog.php:160
+#: widgets/blog/blog.php:178 widgets/testimonial/testimonial.php:200
+#: widgets/testimonial/testimonial.php:219
+#: widgets/testimonial/testimonial.php:237
+msgid "Column 2"
+msgstr ""
+
+#: widgets/blog/blog.php:141 widgets/blog/blog.php:161
+#: widgets/blog/blog.php:179 widgets/testimonial/testimonial.php:201
+#: widgets/testimonial/testimonial.php:220
+#: widgets/testimonial/testimonial.php:238
+msgid "Column 3"
+msgstr ""
+
+#: widgets/blog/blog.php:142 widgets/testimonial/testimonial.php:202
+msgid "Column 4"
+msgstr ""
+
+#: widgets/blog/blog.php:143 widgets/testimonial/testimonial.php:203
+msgid "Column 5"
+msgstr ""
+
+#: widgets/blog/blog.php:156 widgets/testimonial/testimonial.php:215
+msgid "Columns On Tablet"
+msgstr ""
+
+#: widgets/blog/blog.php:174 widgets/testimonial/testimonial.php:233
+msgid "Columns On Mobile"
+msgstr ""
+
+#: widgets/blog/blog.php:191
+msgid "Column Gap"
+msgstr ""
+
+#: widgets/blog/blog.php:206
+msgid "Blog Query"
+msgstr ""
+
+#: widgets/blog/blog.php:212
+msgid "Source"
+msgstr ""
+
+#: widgets/blog/blog.php:223
+msgid "Number Of Posts"
+msgstr ""
+
+#: widgets/blog/blog.php:242
+msgid "Content Word Limit"
+msgstr ""
+
+#: widgets/blog/blog.php:261
+msgid "Categories"
+msgstr ""
+
+#: widgets/blog/blog.php:271
+msgid "Blog Button"
+msgstr ""
+
+#: widgets/blog/blog.php:273 widgets/button/button.php:78
+#: widgets/flip-box/flip-box.php:714 widgets/icon-box/icon-box.php:431
+#: widgets/image-box/image-box.php:309
+#: widgets/image-slider/image-slider.php:133
+msgid "Read More"
+msgstr ""
+
+#: widgets/blog/blog.php:280 widgets/flip-box/flip-box.php:740
+#: widgets/icon-box/icon-box.php:457 widgets/image-box/image-box.php:335
+#: widgets/image-slider/image-slider.php:143
+msgid "Button Icon"
+msgstr ""
+
+#: widgets/blog/blog.php:290 widgets/button/button.php:92
+#: widgets/content-switch/content-switch.php:110
+#: widgets/content-switch/content-switch.php:195
+#: widgets/flip-box/flip-box.php:750 widgets/icon-box/icon-box.php:77
+#: widgets/icon-box/icon-box.php:467 widgets/image-box/image-box.php:345
+#: widgets/image-slider/image-slider.php:156
+#: widgets/image-slider/image-slider.php:313
+msgid "Icon Position"
+msgstr ""
+
+#: widgets/blog/blog.php:294 widgets/button/button.php:96
+#: widgets/flip-box/flip-box.php:754 widgets/icon-box/icon-box.php:471
+#: widgets/image-box/image-box.php:349
+#: widgets/image-slider/image-slider.php:160
+msgid "Before"
+msgstr ""
+
+#: widgets/blog/blog.php:295 widgets/button/button.php:97
+#: widgets/flip-box/flip-box.php:755 widgets/icon-box/icon-box.php:472
+#: widgets/image-box/image-box.php:350
+#: widgets/image-slider/image-slider.php:161
+msgid "After"
+msgstr ""
+
+#: widgets/blog/blog.php:308
+msgid "Slider Settings"
+msgstr ""
+
+#: widgets/blog/blog.php:317 widgets/image-slider/image-slider.php:376
+#: widgets/testimonial/testimonial.php:250
+msgid "Slide Area Box"
+msgstr ""
+
+#: widgets/blog/blog.php:331 widgets/image-slider/image-slider.php:390
+#: widgets/testimonial/testimonial.php:267
+msgid "Autoplay"
+msgstr ""
+
+#: widgets/blog/blog.php:343 widgets/image-slider/image-slider.php:412
+#: widgets/testimonial/testimonial.php:282
+msgid "Autoplay Speed"
+msgstr ""
+
+#: widgets/blog/blog.php:354 widgets/image-slider/image-slider.php:423
+#: widgets/testimonial/testimonial.php:296
+msgid "Animation Speed"
+msgstr ""
+
+#: widgets/blog/blog.php:365 widgets/image-slider/image-slider.php:434
+#: widgets/testimonial/testimonial.php:310
+msgid "Slide View Gap"
+msgstr ""
+
+#: widgets/blog/blog.php:376 widgets/image-slider/image-slider.php:445
+#: widgets/testimonial/testimonial.php:324
+msgid "Slide View Desktop"
+msgstr ""
+
+#: widgets/blog/blog.php:387 widgets/image-slider/image-slider.php:456
+#: widgets/testimonial/testimonial.php:338
+msgid "Slide View Laptop"
+msgstr ""
+
+#: widgets/blog/blog.php:398 widgets/image-slider/image-slider.php:467
+#: widgets/testimonial/testimonial.php:352
+msgid "Slide View Tablet"
+msgstr ""
+
+#: widgets/blog/blog.php:409 widgets/image-slider/image-slider.php:478
+#: widgets/testimonial/testimonial.php:366
+msgid "Slide View Mobile"
+msgstr ""
+
+#: widgets/blog/blog.php:510 widgets/image-box/image-box.php:62
+msgid "Image Position"
+msgstr ""
+
+#: widgets/blog/blog.php:518 widgets/blog/blog.php:691
+#: widgets/blog/blog.php:1558 widgets/flip-box/flip-box.php:328
+#: widgets/flip-box/flip-box.php:593 widgets/icon-box/icon-box.php:85
+#: widgets/icon-box/icon-box.php:111 widgets/icon-box/icon-box.php:210
+#: widgets/icon-box/icon-box.php:408 widgets/image-box/image-box.php:70
+#: widgets/image-box/image-box.php:92 widgets/image-slider/image-slider.php:273
+#: widgets/image-slider/image-slider.php:321
+#: widgets/image-slider/image-slider.php:343
+#: widgets/image-slider/image-slider.php:1409 widgets/team/team.php:502
+#: widgets/testimonial/testimonial.php:769
+msgid "Top"
+msgstr ""
+
+#: widgets/blog/blog.php:536
+msgid "Column Width (%)"
+msgstr ""
+
+#: widgets/blog/blog.php:550 widgets/flip-box/flip-box.php:227
+#: widgets/flip-box/flip-box.php:477 widgets/image-box/image-box.php:630
+#: widgets/image-slider/image-slider.php:69 widgets/team/team.php:260
+msgid "Image"
+msgstr ""
+
+#: widgets/blog/blog.php:575 widgets/contact-form/contact-form7.php:159
+#: widgets/contact-form/contact-form7.php:347
+#: widgets/content-switch/content-switch.php:392
+#: widgets/content-switch/content-switch.php:467
+#: widgets/flip-box/flip-box.php:113 widgets/flip-box/flip-box.php:1157
+#: widgets/image-box/image-box.php:678
+#: widgets/image-slider/image-slider.php:601 widgets/logo/logo.php:168
+#: widgets/team/team.php:280
+msgid "Height"
+msgstr ""
+
+#: widgets/blog/blog.php:640
+msgid "Date & Month"
+msgstr ""
+
+#: widgets/blog/blog.php:650 widgets/blog/blog.php:854
+msgid "Layout"
+msgstr ""
+
+#: widgets/blog/blog.php:659 widgets/blog/blog.php:859
+#: widgets/image-slider/image-slider.php:300
+msgid "Inline"
+msgstr ""
+
+#: widgets/blog/blog.php:668 widgets/flip-box/flip-box.php:293
+#: widgets/icon-box/icon-box.php:136
+msgid "Horizontal Alignment"
+msgstr ""
+
+#: widgets/blog/blog.php:687 widgets/flip-box/flip-box.php:324
+#: widgets/flip-box/flip-box.php:589 widgets/icon-box/icon-box.php:107
+#: widgets/image-box/image-box.php:88 widgets/image-slider/image-slider.php:339
+msgid "Vertical Alignment"
+msgstr ""
+
+#: widgets/blog/blog.php:695 widgets/blog/blog.php:1566
+#: widgets/flip-box/flip-box.php:340 widgets/flip-box/flip-box.php:605
+#: widgets/icon-box/icon-box.php:93 widgets/icon-box/icon-box.php:119
+#: widgets/icon-box/icon-box.php:214 widgets/icon-box/icon-box.php:412
+#: widgets/image-box/image-box.php:100
+#: widgets/image-slider/image-slider.php:281
+#: widgets/image-slider/image-slider.php:351
+#: widgets/image-slider/image-slider.php:1417 widgets/team/team.php:506
+#: widgets/testimonial/testimonial.php:777
+msgid "Bottom"
+msgstr ""
+
+#: widgets/blog/blog.php:716
+msgid "Show Icon"
+msgstr ""
+
+#: widgets/blog/blog.php:744
+msgid "Date"
+msgstr ""
+
+#: widgets/blog/blog.php:768
+msgid "Month"
+msgstr ""
+
+#: widgets/blog/blog.php:838
+msgid "Meta"
+msgstr ""
+
+#: widgets/blog/blog.php:863
+msgid "Block"
+msgstr ""
+
+#: widgets/blog/blog.php:903 widgets/search/search.php:106
+#: widgets/search/search.php:201
+msgid "Icon Color"
+msgstr ""
+
+#: widgets/blog/blog.php:935 widgets/blog/blog.php:1355
+#: widgets/button/button.php:419 widgets/flip-box/flip-box.php:408
+#: widgets/flip-box/flip-box.php:673 widgets/flip-box/flip-box.php:1884
+#: widgets/icon-box/icon-box.php:359 widgets/icon-box/icon-box.php:859
+#: widgets/icon-box/icon-box.php:1381 widgets/icon-box/icon-box.php:1501
+#: widgets/image-box/image-box.php:263 widgets/image-box/image-box.php:1570
+#: widgets/image-slider/image-slider.php:1217
+msgid "Vertical Position"
+msgstr ""
+
+#: widgets/blog/blog.php:1141 widgets/blog/blog.php:1478
+#: widgets/button/button.php:275 widgets/flip-box/flip-box.php:171
+#: widgets/flip-box/flip-box.php:2003 widgets/icon-box/icon-box.php:603
+#: widgets/icon-box/icon-box.php:1283 widgets/icon-box/icon-box.php:1642
+#: widgets/icon-box/icon-box.php:1828 widgets/image-box/image-box.php:480
+#: widgets/image-box/image-box.php:806 widgets/image-box/image-box.php:1359
+#: widgets/image-box/image-box.php:1712 widgets/image-box/image-box.php:1880
+#: widgets/image-slider/image-slider.php:1329
+msgid "Transition Duration"
+msgstr ""
+
+#: widgets/blog/blog.php:1162 widgets/button/button.php:20
+#: widgets/button/button.php:44 widgets/contact-form/contact-form7.php:558
+#: widgets/icon-box/icon-box.php:387 widgets/icon-box/icon-box.php:706
+#: widgets/image-box/image-box.php:290 widgets/image-box/image-box.php:583
+#: widgets/image-slider/image-slider.php:736
+msgid "Button"
+msgstr ""
+
+#: widgets/blog/blog.php:1188 widgets/blog/blog.php:1421
+#: widgets/button/button.php:153 widgets/button/button.php:218
+#: widgets/contact-form/contact-form7.php:210
+#: widgets/contact-form/contact-form7.php:386
+#: widgets/contact-form/contact-form7.php:489
+#: widgets/contact-form/contact-form7.php:610
+#: widgets/contact-form/contact-form7.php:697
+#: widgets/flip-box/flip-box.php:1748 widgets/flip-box/flip-box.php:1962
+#: widgets/icon-box/icon-box.php:1347 widgets/icon-box/icon-box.php:1601
+#: widgets/image-box/image-box.php:1423 widgets/image-box/image-box.php:1670
+#: widgets/image-slider/image-slider.php:1087
+#: widgets/image-slider/image-slider.php:1283
+msgid "Text Color"
+msgstr ""
+
+#: widgets/blog/blog.php:1198 widgets/button/button.php:127
+#: widgets/image-slider/image-slider.php:1061
+msgid "Width (%)"
+msgstr ""
+
+#: widgets/blog/blog.php:1216 widgets/content-switch/content-switch.php:85
+#: widgets/flip-box/flip-box.php:336 widgets/flip-box/flip-box.php:601
+msgid "Space Between"
+msgstr ""
+
+#: widgets/blog/blog.php:1233 widgets/blog/blog.php:1431
+#: widgets/button/button.php:163 widgets/button/button.php:228
+#: widgets/contact-form/contact-form7.php:185
+#: widgets/contact-form/contact-form7.php:367
+#: widgets/contact-form/contact-form7.php:478
+#: widgets/contact-form/contact-form7.php:621
+#: widgets/contact-form/contact-form7.php:708
+msgid "Background Color"
+msgstr ""
+
+#: widgets/blog/blog.php:1291 widgets/blog/blog.php:1494
+#: widgets/button/button.php:291 widgets/button/button.php:353
+#: widgets/flip-box/flip-box.php:866 widgets/flip-box/flip-box.php:1805
+#: widgets/flip-box/flip-box.php:2019 widgets/icon-box/icon-box.php:753
+#: widgets/icon-box/icon-box.php:1422 widgets/icon-box/icon-box.php:1658
+#: widgets/image-box/image-box.php:837 widgets/image-box/image-box.php:1491
+#: widgets/image-box/image-box.php:1728
+#: widgets/image-slider/image-slider.php:932
+#: widgets/image-slider/image-slider.php:1153
+#: widgets/image-slider/image-slider.php:1345 widgets/search/search.php:73
+msgid "Icon Style"
+msgstr ""
+
+#: widgets/blog/blog.php:1373 widgets/blog/blog.php:1522
+#: widgets/button/button.php:328 widgets/button/button.php:437
+#: widgets/image-slider/image-slider.php:1235
+#: widgets/image-slider/image-slider.php:1373
+msgid "Rotate (deg)"
+msgstr ""
+
+#: widgets/blog/blog.php:1554 widgets/icon-box/icon-box.php:317
+#: widgets/image-slider/image-slider.php:1405 widgets/team/team.php:84
+#: widgets/team/team.php:329 widgets/team/team.php:536
+#: widgets/team/team.php:801 widgets/testimonial/testimonial.php:765
+msgid "Position"
+msgstr ""
+
+#: widgets/blog/blog.php:1562 widgets/icon-box/icon-box.php:115
+#: widgets/image-box/image-box.php:96 widgets/image-slider/image-slider.php:347
+#: widgets/image-slider/image-slider.php:1413
+#: widgets/testimonial/testimonial.php:773
+msgid "Middle"
+msgstr ""
+
+#: widgets/blog/blog.php:1606 widgets/image-slider/image-slider.php:1457
+#: widgets/team/team.php:815 widgets/testimonial/testimonial.php:817
+msgid "Vertical"
+msgstr ""
+
+#: widgets/blog/blog.php:1631 widgets/image-slider/image-slider.php:1482
+#: widgets/team/team.php:836 widgets/testimonial/testimonial.php:842
+msgid "Horizontal"
+msgstr ""
+
+#: widgets/breadcrumb/breadcrumb.php:15
+msgid "Breadcrumb"
+msgstr ""
+
+#: widgets/breadcrumb/breadcrumb.php:66 widgets/flip-box/flip-box.php:240
+#: widgets/flip-box/flip-box.php:490 widgets/icon-box/icon-box.php:52
+msgid "Choose Icon"
+msgstr ""
+
+#: widgets/breadcrumb/breadcrumb.php:110
+msgid "Search Results"
+msgstr ""
+
+#: widgets/breadcrumb/breadcrumb.php:113
+msgid "404 Not Found"
+msgstr ""
+
+#: widgets/button/button.php:76
+msgid "Text"
+msgstr ""
+
+#: widgets/button/button.php:107 widgets/flip-box/flip-box.php:531
+#: widgets/icon-box/icon-box.php:237 widgets/image-box/image-box.php:181
+msgid "Title URL"
+msgstr ""
+
+#: widgets/button/button.php:109 widgets/flip-box/flip-box.php:536
+#: widgets/icon-box/icon-box.php:68 widgets/icon-box/icon-box.php:242
+#: widgets/image-box/image-box.php:129 widgets/image-box/image-box.php:186
+#: widgets/team/team.php:95
+msgid "Paste URL or Link"
+msgstr ""
+
+#: widgets/button/button.php:120 widgets/flip-box/flip-box.php:1722
+#: widgets/icon-box/icon-box.php:1303 widgets/image-box/image-box.php:1379
+#: widgets/image-slider/image-slider.php:1054
+msgid "Button Style"
+msgstr ""
+
+#: widgets/contact-form/contact-form7.php:20
+msgid "Contact Form 7"
+msgstr ""
+
+#: widgets/contact-form/contact-form7.php:45
+msgid "Form not found"
+msgstr ""
+
+#: widgets/contact-form/contact-form7.php:56
+msgid "Contact Form"
+msgstr ""
+
+#: widgets/contact-form/contact-form7.php:62
+msgid "Select Form"
+msgstr ""
+
+#: widgets/contact-form/contact-form7.php:75 widgets/video/video-icon.php:103
+msgid "Style"
+msgstr ""
+
+#: widgets/contact-form/contact-form7.php:135
+msgid "Justified"
+msgstr ""
+
+#: widgets/contact-form/contact-form7.php:152
+msgid "Input"
+msgstr ""
+
+#: widgets/contact-form/contact-form7.php:227
+#: widgets/contact-form/contact-form7.php:397 widgets/search/search.php:191
+msgid "Placeholder Color"
+msgstr ""
+
+#: widgets/contact-form/contact-form7.php:257
+#: widgets/contact-form/contact-form7.php:411
+#: widgets/contact-form/contact-form7.php:509
+#: widgets/contact-form/contact-form7.php:659
+#: widgets/contact-form/contact-form7.php:720 widgets/video/video-icon.php:187
+msgid "Border"
+msgstr ""
+
+#: widgets/contact-form/contact-form7.php:265
+#: widgets/contact-form/contact-form7.php:419
+msgid "Focus Border Color"
+msgstr ""
+
+#: widgets/contact-form/contact-form7.php:340
+msgid "Textarea"
+msgstr ""
+
+#: widgets/contact-form/contact-form7.php:470
+msgid "Label"
+msgstr ""
+
+#: widgets/contact-form/contact-form7.php:751
+msgid "Please Select contact form."
+msgstr ""
+
+#: widgets/content-switch/content-switch.php:20
+msgid "Content Switch"
+msgstr ""
+
+#: widgets/content-switch/content-switch.php:43
+msgid "Display Settings"
+msgstr ""
+
+#: widgets/content-switch/content-switch.php:97
+#: widgets/content-switch/content-switch.php:137
+msgid "Primary"
+msgstr ""
+
+#: widgets/content-switch/content-switch.php:157
+msgid ""
+"Cras aliquet finibus lorem a bibendum. Morbi ornare luctus dignissim. Nulla "
+"facilisi. Ut id urna lacus. Phasellus pulvinar neque et rhoncus viverra. "
+"Mauris eget imperdiet nisi."
+msgstr ""
+
+#: widgets/content-switch/content-switch.php:182
+#: widgets/content-switch/content-switch.php:222
+msgid "Secondary"
+msgstr ""
+
+#: widgets/content-switch/content-switch.php:242
+msgid ""
+"Aliquam vulputate, dui et aliquet semper, sapien enim blandit sapien, ac "
+"dignissim neque justo a lorem. Morbi a mi eget orci placerat convallis eget "
+"eget mauris."
+msgstr ""
+
+#: widgets/content-switch/content-switch.php:267
+msgid "Switch Content"
+msgstr ""
+
+#: widgets/content-switch/content-switch.php:298
+#: widgets/content-switch/content-switch.php:325
+#: widgets/content-switch/content-switch.php:439
+msgid "Active Color"
+msgstr ""
+
+#: widgets/content-switch/content-switch.php:347
+msgid "Switch Control"
+msgstr ""
+
+#: widgets/content-switch/content-switch.php:364
+msgid "Active Background"
+msgstr ""
+
+#: widgets/content-switch/content-switch.php:421
+msgid "Active Dots"
+msgstr ""
+
+#: widgets/content-switch/content-switch.php:496
+msgid "X Position"
+msgstr ""
+
+#: widgets/flexitype-addons.php:40
+msgid "FlexiType Lite"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:22
+msgid "Flip Box"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:46 widgets/image-slider/image-slider.php:370
+#: widgets/testimonial/testimonial.php:191
+msgid "Settings"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:52
+msgid "Card Effects"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:56
+msgid "Flip Left"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:57
+msgid "Flip Right"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:58
+msgid "Flip Up"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:59
+msgid "Flip Down"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:60
+msgid "Zoom In"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:61
+msgid "Zoom Out"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:62
+msgid "Fade In"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:63
+msgid "Slide Left 01"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:64
+msgid "Slide Left 02"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:65
+msgid "Slide Up 01"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:66
+msgid "Slide Up 02"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:67
+msgid "Slide Right 01"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:68
+msgid "Slide Right 02"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:69
+msgid "Slide Down 01"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:70
+msgid "Slide Down 02"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:71
+msgid "Effects Left 01"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:72
+msgid "Effects Left 02"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:73
+msgid "Effects Left 03"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:74
+msgid "Effects Left 04"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:75
+msgid "Effects Up 01"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:76
+msgid "Effects Up 02"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:77
+msgid "Effects Up 03"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:78
+msgid "Effects Up 04"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:79
+msgid "Effects Right 01"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:80
+msgid "Effects Right 02"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:81
+msgid "Effects Right 03"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:82
+msgid "Effects Right 04"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:83
+msgid "Effects Down 01"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:84
+msgid "Effects Down 02"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:85
+msgid "Effects Down 03"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:86
+msgid "Effects Down 04"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:93
+msgid "3D Depth"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:130
+msgid "Zoom Start"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:150
+msgid "Zoom End"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:185
+msgid "Front Side"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:214 widgets/flip-box/flip-box.php:464
+msgid "Icon Type"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:255 widgets/flip-box/flip-box.php:505
+#: widgets/image-box/image-box.php:52
+msgid "Choose Image"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:271 widgets/flip-box/flip-box.php:521
+#: widgets/icon-box/icon-box.php:230 widgets/image-box/image-box.php:174
+msgid "This is the heading"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:283 widgets/flip-box/flip-box.php:548
+#: widgets/icon-box/icon-box.php:253 widgets/image-box/image-box.php:197
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:357 widgets/flip-box/flip-box.php:622
+#: widgets/icon-box/icon-box.php:268 widgets/image-box/image-box.php:212
+msgid "Show Badge"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:359 widgets/flip-box/flip-box.php:624
+#: widgets/icon-box/icon-box.php:270 widgets/image-box/image-box.php:214
+msgid "Show"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:360 widgets/flip-box/flip-box.php:625
+#: widgets/icon-box/icon-box.php:271 widgets/image-box/image-box.php:215
+msgid "Hide"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:373 widgets/flip-box/flip-box.php:638
+#: widgets/icon-box/icon-box.php:284 widgets/image-box/image-box.php:228
+msgid "01"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:374 widgets/flip-box/flip-box.php:639
+#: widgets/icon-box/icon-box.php:285 widgets/image-box/image-box.php:229
+msgid "Type your title here"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:383 widgets/flip-box/flip-box.php:648
+#: widgets/icon-box/icon-box.php:333 widgets/image-box/image-box.php:238
+msgid "Horizontal Position"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:435
+msgid "Back Side"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:698 widgets/icon-box/icon-box.php:393
+#: widgets/image-box/image-box.php:296
+#: widgets/image-slider/image-slider.php:120
+msgid "Enable Button"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:712 widgets/icon-box/icon-box.php:429
+#: widgets/image-box/image-box.php:307
+#: widgets/image-slider/image-slider.php:131
+msgid "Button Text"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:724 widgets/icon-box/icon-box.php:441
+#: widgets/image-box/image-box.php:319
+msgid "Button URL"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:768 widgets/icon-box/icon-box.php:485
+#: widgets/image-box/image-box.php:363
+msgid "Box Style"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:775
+msgid "Front Background Color"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:790 widgets/flip-box/flip-box.php:816
+msgid "Overlay Background"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:800
+msgid "Back Background Color"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:879 widgets/flip-box/flip-box.php:1244
+#: widgets/flip-box/flip-box.php:1521
+msgid "Front"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:992 widgets/flip-box/flip-box.php:1368
+#: widgets/flip-box/flip-box.php:1620
+msgid "Back"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:1108
+msgid "Image Style"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:1174 widgets/image-box/image-box.php:695
+msgid "Object Fit"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:1234 widgets/icon-box/icon-box.php:171
+#: widgets/icon-box/icon-box.php:920 widgets/image-box/image-box.php:140
+#: widgets/image-box/image-box.php:1010
+msgid "Title & Description"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:1331 widgets/flip-box/flip-box.php:1468
+#: widgets/icon-box/icon-box.php:251 widgets/icon-box/icon-box.php:688
+#: widgets/icon-box/icon-box.php:1033 widgets/image-box/image-box.php:195
+#: widgets/image-box/image-box.php:565 widgets/image-box/image-box.php:1096
+msgid "Description"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:1444 widgets/icon-box/icon-box.php:784
+#: widgets/icon-box/icon-box.php:1020 widgets/image-box/image-box.php:893
+#: widgets/image-box/image-box.php:1083 widgets/image-box/image-box.php:1121
+#: widgets/image-slider/image-slider.php:876
+#: widgets/image-slider/image-slider.php:959 widgets/menu/nav-menu.php:150
+#: widgets/menu/nav-menu.php:241 widgets/team/team.php:482
+msgid "Hover Color"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:1508 widgets/icon-box/icon-box.php:262
+#: widgets/icon-box/icon-box.php:1089 widgets/image-box/image-box.php:206
+#: widgets/image-box/image-box.php:1165
+msgid "Badge"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:1528 widgets/flip-box/flip-box.php:1627
+#: widgets/icon-box/icon-box.php:1130 widgets/image-box/image-box.php:1206
+msgid "Typography"
+msgstr ""
+
+#: widgets/flip-box/flip-box.php:1561 widgets/flip-box/flip-box.php:1660
+#: widgets/flip-box/flip-box.php:1905 widgets/flip-box/flip-box.php:2056
+#: widgets/icon-box/icon-box.php:1523 widgets/icon-box/icon-box.php:1695
+#: widgets/image-box/image-box.php:1592 widgets/image-box/image-box.php:1765
+msgid "Rotate"
+msgstr ""
+
+#: widgets/icon-box/icon-box.php:22
+msgid "Icon Box"
+msgstr ""
+
+#: widgets/icon-box/icon-box.php:46
+msgid "Box Icon"
+msgstr ""
+
+#: widgets/icon-box/icon-box.php:63 widgets/image-box/image-box.php:124
+msgid "Icon URL"
+msgstr ""
+
+#: widgets/icon-box/icon-box.php:148
+msgid "Between"
+msgstr ""
+
+#: widgets/icon-box/icon-box.php:206
+msgid "Title Position"
+msgstr ""
+
+#: widgets/icon-box/icon-box.php:322
+msgid "Icon Badge"
+msgstr ""
+
+#: widgets/icon-box/icon-box.php:323 widgets/team/team.php:804
+msgid "Custom"
+msgstr ""
+
+#: widgets/icon-box/icon-box.php:404
+msgid "Button Position"
+msgstr ""
+
+#: widgets/icon-box/icon-box.php:800 widgets/image-box/image-box.php:909
+#: widgets/image-slider/image-slider.php:969
+msgid "Hover Background"
+msgstr ""
+
+#: widgets/icon-box/icon-box.php:961 widgets/image-box/image-box.php:1024
+msgid "Hover Border Color"
+msgstr ""
+
+#: widgets/icon-box/icon-box.php:1108 widgets/icon-box/icon-box.php:1219
+#: widgets/icon-box/icon-box.php:1322 widgets/icon-box/icon-box.php:1580
+#: widgets/image-box/image-box.php:757 widgets/image-box/image-box.php:789
+#: widgets/image-box/image-box.php:1184 widgets/image-box/image-box.php:1295
+#: widgets/image-box/image-box.php:1398 widgets/image-box/image-box.php:1649
+msgid "Opacity"
+msgstr ""
+
+#: widgets/icon-box/icon-box.php:1720 widgets/image-box/image-box.php:1790
+msgid "Background Overlay "
+msgstr ""
+
+#: widgets/icon-box/icon-box.php:1727 widgets/image-box/image-box.php:1797
+msgid "Enable Overlay"
+msgstr ""
+
+#: widgets/icon-box/icon-box.php:1738 widgets/image-box/image-box.php:1808
+msgid "Overlay Direction"
+msgstr ""
+
+#: widgets/icon-box/icon-box.php:1742 widgets/image-box/image-box.php:1812
+msgid "From Left"
+msgstr ""
+
+#: widgets/icon-box/icon-box.php:1746 widgets/image-box/image-box.php:1816
+msgid "From Top"
+msgstr ""
+
+#: widgets/icon-box/icon-box.php:1750 widgets/image-box/image-box.php:1820
+msgid "From Right"
+msgstr ""
+
+#: widgets/icon-box/icon-box.php:1754 widgets/image-box/image-box.php:1824
+msgid "From Bottom"
+msgstr ""
+
+#: widgets/icon-box/icon-box.php:1784 widgets/icon-box/icon-box.php:1810
+#: widgets/image-slider/image-slider.php:593
+#: widgets/image-slider/image-slider.php:641
+msgid "Background Overlay Color"
+msgstr ""
+
+#: widgets/icon-box/icon-box.php:1792 widgets/icon-box/icon-box.php:1818
+#: widgets/image-box/image-box.php:1853 widgets/image-box/image-box.php:1870
+msgid "Background Overlay"
+msgstr ""
+
+#: widgets/image-box/image-box.php:22
+msgid "Image Box"
+msgstr ""
+
+#: widgets/image-box/image-box.php:46
+msgid "Box Image"
+msgstr ""
+
+#: widgets/image-box/image-box.php:640
+msgid "Image Area Width"
+msgstr ""
+
+#: widgets/image-box/image-box.php:826
+msgid "Hover Animation"
+msgstr ""
+
+#: widgets/image-box/image-box.php:1926
+#: widgets/team/template/team-style-one.php:9
+#: widgets/team/template/team-style-three.php:9
+#: widgets/team/template/team-style-two.php:9
+msgid "No alt text"
+msgstr ""
+
+#: widgets/image-slider/image-slider.php:20
+msgid "Image Carousel"
+msgstr ""
+
+#: widgets/image-slider/image-slider.php:76
+msgid "Enable Link Icon"
+msgstr ""
+
+#: widgets/image-slider/image-slider.php:87
+msgid "Link Icon"
+msgstr ""
+
+#: widgets/image-slider/image-slider.php:104
+#: widgets/image-slider/image-slider.php:688
+#: widgets/image-slider/image-slider.php:828
+msgid "Subtitle"
+msgstr ""
+
+#: widgets/image-slider/image-slider.php:172 widgets/menu/nav-menu.php:88
+#: widgets/team/team.php:195
+msgid "URL"
+msgstr ""
+
+#: widgets/image-slider/image-slider.php:182
+msgid "Slider Item"
+msgstr ""
+
+#: widgets/image-slider/image-slider.php:190
+msgid "Strategy"
+msgstr ""
+
+#: widgets/image-slider/image-slider.php:191
+msgid "Business strategy"
+msgstr ""
+
+#: widgets/image-slider/image-slider.php:197
+msgid "Resource"
+msgstr ""
+
+#: widgets/image-slider/image-slider.php:198
+msgid "Human Resource"
+msgstr ""
+
+#: widgets/image-slider/image-slider.php:207
+msgid "Slide Content Default Active"
+msgstr ""
+
+#: widgets/image-slider/image-slider.php:243
+msgid "Horizontal Align"
+msgstr ""
+
+#: widgets/image-slider/image-slider.php:269
+msgid "Vertical Align"
+msgstr ""
+
+#: widgets/image-slider/image-slider.php:295
+msgid "Content Layout"
+msgstr ""
+
+#: widgets/image-slider/image-slider.php:304
+msgid "Full Width"
+msgstr ""
+
+#: widgets/image-slider/image-slider.php:402
+msgid "Centered Slides"
+msgstr ""
+
+#: widgets/image-slider/image-slider.php:545 widgets/team/team.php:130
+msgid "Content Position"
+msgstr ""
+
+#: widgets/image-slider/image-slider.php:549 widgets/team/team.php:134
+msgid "Absolute"
+msgstr ""
+
+#: widgets/image-slider/image-slider.php:561 widgets/team/team.php:149
+msgid "Content Visibility"
+msgstr ""
+
+#: widgets/image-slider/image-slider.php:564 widgets/team/team.php:152
+#: widgets/team/team.php:225
+msgid "Hidden"
+msgstr ""
+
+#: widgets/image-slider/image-slider.php:565 widgets/team/team.php:153
+#: widgets/team/team.php:226
+msgid "Visible"
+msgstr ""
+
+#: widgets/image-slider/image-slider.php:576 widgets/team/team.php:241
+msgid "Item Style"
+msgstr ""
+
+#: widgets/image-slider/image-slider.php:798
+msgid "Content Y Position"
+msgstr ""
+
+#: widgets/image-slider/image-slider.php:821
+msgid "Content Style"
+msgstr ""
+
+#: widgets/logo/logo.php:23 widgets/logo/logo.php:46
+msgid "Logo"
+msgstr ""
+
+#: widgets/logo/logo.php:52
+msgid "Choose logo"
+msgstr ""
+
+#: widgets/logo/logo.php:97
+msgid "Link"
+msgstr ""
+
+#: widgets/logo/logo.php:99
+msgid "https://your-link.com"
+msgstr ""
+
+#: widgets/logo/logo.php:107
+msgid "Logo Style"
+msgstr ""
+
+#: widgets/menu/nav-menu.php:20
+msgid "Nav Menu"
+msgstr ""
+
+#: widgets/menu/nav-menu.php:44 widgets/menu/vertical-menu.php:44
+msgid "Custom Menu"
+msgstr ""
+
+#: widgets/menu/nav-menu.php:50 widgets/menu/vertical-menu.php:50
+msgid "Select a Menu"
+msgstr ""
+
+#: widgets/menu/nav-menu.php:61
+msgid "Mobile Menu"
+msgstr ""
+
+#: widgets/menu/nav-menu.php:67
+msgid "Navbar Icon"
+msgstr ""
+
+#: widgets/menu/nav-menu.php:78
+msgid "Mobile Logo"
+msgstr ""
+
+#: widgets/menu/nav-menu.php:90
+msgid "http://google.com"
+msgstr ""
+
+#: widgets/menu/nav-menu.php:99
+msgid "Desktop Nav Style"
+msgstr ""
+
+#: widgets/menu/nav-menu.php:106
+msgid "Menu Alignment"
+msgstr ""
+
+#: widgets/menu/nav-menu.php:162
+msgid "Menu Space"
+msgstr ""
+
+#: widgets/menu/nav-menu.php:180
+msgid "Menu Height"
+msgstr ""
+
+#: widgets/menu/nav-menu.php:192
+msgid "Sub Menu"
+msgstr ""
+
+#: widgets/menu/nav-menu.php:263
+msgid "Sub Menu Top Space"
+msgstr ""
+
+#: widgets/menu/nav-menu.php:281
+msgid "Dropdown Menu Top Space"
+msgstr ""
+
+#: widgets/menu/nav-menu.php:299
+msgid "Menu Arrow Space"
+msgstr ""
+
+#: widgets/menu/nav-menu.php:312
+msgid "Mobile Nav Style"
+msgstr ""
+
+#: widgets/menu/nav-menu.php:365
+msgid "Nav Popup"
+msgstr ""
+
+#: widgets/menu/nav-menu.php:372
+msgid "Popup BG"
+msgstr ""
+
+#: widgets/menu/nav-menu.php:382
+msgid "Close Icon"
+msgstr ""
+
+#: widgets/menu/nav-menu.php:392
+msgid "Close Icon BG"
+msgstr ""
+
+#: widgets/menu/nav-menu.php:402 widgets/menu/vertical-menu.php:75
+msgid "Menu Color"
+msgstr ""
+
+#: widgets/menu/nav-menu.php:412 widgets/menu/vertical-menu.php:85
+msgid "Menu Hover"
+msgstr ""
+
+#: widgets/menu/nav-menu.php:422 widgets/menu/vertical-menu.php:95
+msgid "Menu Border"
+msgstr ""
+
+#: widgets/menu/nav-menu.php:432 widgets/menu/vertical-menu.php:105
+msgid "Dropdown Arrow"
+msgstr ""
+
+#: widgets/menu/nav-menu.php:442 widgets/menu/vertical-menu.php:115
+msgid "Arrow BG"
+msgstr ""
+
+#: widgets/menu/nav-menu.php:452
+msgid "Popup Padding"
+msgstr ""
+
+#: widgets/menu/vertical-menu.php:20
+msgid "Vertical Menu"
+msgstr ""
+
+#: widgets/menu/vertical-menu.php:61
+msgid "Nav Style"
+msgstr ""
+
+#: widgets/search/search.php:20
+msgid "Search"
+msgstr ""
+
+#: widgets/search/search.php:44 widgets/video/video-icon.php:51
+msgid "Section Content"
+msgstr ""
+
+#: widgets/search/search.php:62
+msgid "Placeholder"
+msgstr ""
+
+#: widgets/search/search.php:136
+msgid "Popup Style"
+msgstr ""
+
+#: widgets/search/search.php:153
+msgid "Close Icon Color"
+msgstr ""
+
+#: widgets/search/search.php:163
+msgid "Form Style"
+msgstr ""
+
+#: widgets/team/team.php:21
+msgid "Team Member"
+msgstr ""
+
+#: widgets/team/team.php:45
+msgid "Team Content"
+msgstr ""
+
+#: widgets/team/team.php:51
+msgid "Select Team Style"
+msgstr ""
+
+#: widgets/team/team.php:54
+msgid "Team Style 01"
+msgstr ""
+
+#: widgets/team/team.php:55
+msgid "Team Style 02"
+msgstr ""
+
+#: widgets/team/team.php:56
+msgid "Team Style 03"
+msgstr ""
+
+#: widgets/team/team.php:65
+msgid "Team Image"
+msgstr ""
+
+#: widgets/team/team.php:75 widgets/team/team.php:311 widgets/team/team.php:439
+msgid "Name"
+msgstr ""
+
+#: widgets/team/team.php:77
+msgid "Amelia Clover"
+msgstr ""
+
+#: widgets/team/team.php:86
+msgid "Senior Advisor"
+msgstr ""
+
+#: widgets/team/team.php:93
+msgid "Single URL"
+msgstr ""
+
+#: widgets/team/team.php:166 widgets/team/team.php:397
+#: widgets/team/team.php:674 widgets/team/team.php:963
+msgid "Social Icon"
+msgstr ""
+
+#: widgets/team/team.php:172
+msgid "Show Social"
+msgstr ""
+
+#: widgets/team/team.php:205
+msgid "Social Icons"
+msgstr ""
+
+#: widgets/team/team.php:210
+msgid "fab fa-facebook-f"
+msgstr ""
+
+#: widgets/team/team.php:222
+msgid "Social Visibility"
+msgstr ""
+
+#: widgets/team/team.php:365
+msgid "Y Position"
+msgstr ""
+
+#: widgets/team/team.php:387 widgets/team/team.php:790
+#: widgets/team/team.php:994
+msgid "Share Icon"
+msgstr ""
+
+#: widgets/team/team.php:498
+msgid "Name Position"
+msgstr ""
+
+#: widgets/testimonial/testimonial.php:20
+msgid "Testimonials"
+msgstr ""
+
+#: widgets/testimonial/testimonial.php:53
+msgid "Testimonial Content"
+msgstr ""
+
+#: widgets/testimonial/testimonial.php:59
+msgid "Enable Slider"
+msgstr ""
+
+#: widgets/testimonial/testimonial.php:82
+msgid "Select a Style"
+msgstr ""
+
+#: widgets/testimonial/testimonial.php:85
+msgid "Testimonial Style 01"
+msgstr ""
+
+#: widgets/testimonial/testimonial.php:86
+msgid "Testimonial Style 02"
+msgstr ""
+
+#: widgets/testimonial/testimonial.php:95
+#: widgets/testimonial/testimonial.php:522
+msgid "Rating Icon"
+msgstr ""
+
+#: widgets/testimonial/testimonial.php:109
+#: widgets/testimonial/testimonial.php:569
+msgid "Quote Icon"
+msgstr ""
+
+#: widgets/testimonial/testimonial.php:124
+msgid "Avatar Image"
+msgstr ""
+
+#: widgets/testimonial/testimonial.php:132
+#: widgets/testimonial/testimonial.php:654
+msgid "Author Name"
+msgstr ""
+
+#: widgets/testimonial/testimonial.php:140
+#: widgets/testimonial/testimonial.php:683
+msgid "Author Position"
+msgstr ""
+
+#: widgets/testimonial/testimonial.php:148
+msgid "Write Content"
+msgstr ""
+
+#: widgets/testimonial/testimonial.php:156
+msgid "Testimonial Slides"
+msgstr ""
+
+#: widgets/testimonial/testimonial.php:164
+msgid "Web Designer"
+msgstr ""
+
+#: widgets/testimonial/testimonial.php:165
+msgid "Sara Albert"
+msgstr ""
+
+#: widgets/testimonial/testimonial.php:166
+#: widgets/testimonial/testimonial.php:177
+msgid ""
+"Proin pretium sem libero, nec aliquet augue lobortis in. Phasellus nibh "
+"quam, molestie id est sit amet."
+msgstr ""
+
+#: widgets/testimonial/testimonial.php:175
+msgid "Developer"
+msgstr ""
+
+#: widgets/testimonial/testimonial.php:176
+msgid "Richerd William"
+msgstr ""
+
+#: widgets/testimonial/testimonial.php:446
+msgid "Testimonial Item"
+msgstr ""
+
+#: widgets/testimonial/testimonial.php:593
+msgid "Front Size"
+msgstr ""
+
+#: widgets/testimonial/testimonial.php:617
+msgid "Item Content"
+msgstr ""
+
+#: widgets/testimonial/testimonial.php:624
+msgid "Author Avatar"
+msgstr ""
+
+#: widgets/testimonial/testimonial.php:712
+msgid "Author Content"
+msgstr ""
+
+#: widgets/video/video-icon.php:20
+msgid "Video Icon"
+msgstr ""
+
+#: widgets/video/video-icon.php:68
+msgid "Video URL"
+msgstr ""
+
+#: widgets/video/video-icon.php:70
+msgid "https://www.youtube.com/watch?v=SZEflIVnhH8"
+msgstr ""
+
+#: widgets/video/video-icon.php:180
+msgid "Animation Style"
+msgstr ""
