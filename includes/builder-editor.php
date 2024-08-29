@@ -1,3 +1,10 @@
+<?php
+
+// Exit if accessed directly 
+if ( ! defined( 'ABSPATH' ) ) exit; 
+
+?>
+
 <?php $protocol = is_ssl() ? 'https' : 'http'; ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>

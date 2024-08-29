@@ -1947,7 +1947,7 @@ class FlexiType_ImageBox extends Widget_Base
                     <?php if (!empty($settings['box_icon']['value'])): ?>
                         <span>
                         <?php if (!empty($settings['boxicon_link']['url'])): ?>
-                            <a <?php echo $this->get_render_attribute_string('boxicon_link'); ?>>
+                            <a <?php echo $this->get_render_attribute_string('boxicon_link'); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>>
                                 <div class="icon__box-item-icon">
                                     <?php Icons_Manager::render_icon($settings['box_icon'], ['aria-hidden' => 'true']); ?>
                                 </div>
@@ -1962,21 +1962,21 @@ class FlexiType_ImageBox extends Widget_Base
                     <?php if (!empty($settings['box_title'])): ?>
                         <h5>
                             <?php if (!empty($settings['title_link']['url'])) { ?>
-                                <a <?php echo $this->get_render_attribute_string('title_link'); ?>>
-                                    <?php echo ft_allow_html($settings['box_title']); ?>
+                                <a <?php echo $this->get_render_attribute_string('title_link'); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>>
+                                    <?php echo flexitype_lite_allow_html($settings['box_title']); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
                                 </a>
                             <?php } else {
-                               echo ft_allow_html($settings['box_title']);
+                               echo flexitype_lite_allow_html($settings['box_title']); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped 
                             } ?>
                         </h5>
                     <?php endif; ?>
                     <?php if (!empty($settings['box_subtitle'])): ?>
-                        <p><?php echo ft_allow_html($settings['box_subtitle']); ?></p>
+                        <p><?php echo flexitype_lite_allow_html($settings['box_subtitle']); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
                     <?php endif; ?>
                 </div>
                 <?php if ('yes' === $settings['box_btn_active']): ?>
                 <div>
-                    <a class="flexitype-button <?php echo esc_attr( $settings['icon_align'] ); ?>" <?php echo $this->get_render_attribute_string('box_btn_link'); ?>>
+                    <a class="flexitype-button <?php echo esc_attr( $settings['icon_align'] ); ?>" <?php echo $this->get_render_attribute_string('box_btn_link'); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>>
                         <?php echo esc_html($settings['box_btn']); ?>
                         <?php if (!empty($settings['button_icon']['value'])):?><i class="<?php echo esc_attr($settings['button_icon']['value']); ?>"></i><?php endif;?>
                     </a>

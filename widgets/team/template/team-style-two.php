@@ -1,3 +1,11 @@
+
+<?php      
+// Exit if accessed directly 
+if ( ! defined( 'ABSPATH' ) ) exit; 
+
+?>
+
+
 <?php if ('design-2' === $settings['select_design']): ?>
     <div class="flexitype_team_two-item <?php echo esc_attr($settings['team_social_visibility']); ?>">
 		<div class="flexitype_team_two-item-image">
@@ -6,7 +14,7 @@
                 if (!empty($team_image['alt'])) {
                     echo '<img src="' . esc_url($team_image['url']) . '" alt="' . esc_attr($team_image['alt']) . '" />';
                 } else {
-                    echo '<img src="' . esc_url($team_image['url']) . '" alt="' . esc_attr(__('No alt text', 'flexitype-elements')) . '" />';
+                    echo '<img src="' . esc_url($team_image['url']) . '" alt="' . esc_attr(__('No alt text', 'flexitype-lite')) . '" />';
                 }
             } ?>
 		</div>
@@ -14,7 +22,7 @@
             <div class="title">
                 <h6>
                     <?php if ( ! empty( $settings['team_url']['url'] ) ) : ?>
-                        <a <?php echo $this->get_render_attribute_string( 'team_url' ); ?>>
+                        <a <?php echo $this->get_render_attribute_string( 'team_url' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>>
                             <?php echo esc_html( $settings['title_one'] ); ?>
                         </a>
                     <?php else : ?>

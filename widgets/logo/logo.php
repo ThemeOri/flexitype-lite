@@ -200,7 +200,7 @@ class FlexiType_Logo extends Widget_Base
         ?>
         <div class="flexitype-builder-logo">
             <?php if (!empty($settings['link']['url']) && !empty($logo['url'])) { ?>
-                <a <?php echo $this->get_render_attribute_string('link'); ?> class="custom-logo-link">
+                <a <?php echo $this->get_render_attribute_string('link'); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?> class="custom-logo-link">
                     <img src="<?php echo esc_url($logo['url']); ?>" alt="logo">
                 </a>
             <?php } else {

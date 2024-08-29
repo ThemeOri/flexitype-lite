@@ -743,7 +743,7 @@ class Contact_Form7_Flexitype extends Widget_Base
         $shortcode = sprintf('[contact-form-7 %s]', $this->get_render_attribute_string('shortcode'));
 
         ?>
-        <div <?php echo $this->get_render_attribute_string('flexitype_wpform_attr'); ?>>
+        <div <?php echo $this->get_render_attribute_string('flexitype_wpform_attr'); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>>
             <?php
             if (!empty($settings['contact_form_id'])) {
                 echo do_shortcode($shortcode);

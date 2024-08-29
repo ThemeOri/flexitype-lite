@@ -29,26 +29,13 @@ class FlexiType_Video extends Widget_Base
     {
         return ['flexitype'];
     }
-
-    public function get_keywords()
-    {
-        return ['flexitype', 'Video', 'Icon', 'play',];
-    }
-
-    public function get_style_depends() {
-		return [ 'flexitype-magnific-style' ];
-	}
-
-    public function get_script_depends() {
-		return [ 'flexitype-magnific-script' ];
-	}
-
+    
     protected function register_controls()
     {
         $this->start_controls_section(
             'section_content',
             [
-                'label' => esc_html__('Section Content','flexitype-lite'),
+                'label' => esc_html__('Video Icon','flexitype-lite'),
             ]
         );
         $this->add_control(
@@ -100,7 +87,7 @@ class FlexiType_Video extends Widget_Base
         $this->start_controls_section(
             'style_section',
             [
-                'label' => esc_html__('Style','flexitype-lite'),
+                'label' => esc_html__('Video Icon Style','flexitype-lite'),
                 'tab' => Controls_Manager::TAB_STYLE,
             ]
         );
@@ -110,7 +97,7 @@ class FlexiType_Video extends Widget_Base
                 'label' => esc_html__('Color','flexitype-lite'),
                 'type' => Controls_Manager::COLOR,
                 'selectors' => [
-                    '{{WRAPPER}} .play-video-icon a' => 'color: {{VALUE}}',
+                    '{{WRAPPER}} .flexitype-video-icon a' => 'color: {{VALUE}}',
                 ],
             ]
         );
@@ -120,7 +107,7 @@ class FlexiType_Video extends Widget_Base
                 'label' => esc_html__('Background','flexitype-lite'),
                 'type' => Controls_Manager::COLOR,
                 'selectors' => [
-                    '{{WRAPPER}} .play-video-icon a' => 'background: {{VALUE}}',
+                    '{{WRAPPER}} .flexitype-video-icon a' => 'background: {{VALUE}}',
                 ],
             ]
         );
@@ -138,7 +125,7 @@ class FlexiType_Video extends Widget_Base
                     ],
                 ],
                 'selectors' => [
-                    '{{WRAPPER}} .play-video-icon a' => 'font-size: {{SIZE}}{{UNIT}};',
+                    '{{WRAPPER}} .flexitype-video-icon a' => 'font-size: {{SIZE}}{{UNIT}};',
                 ],
             ]
         );
@@ -156,7 +143,7 @@ class FlexiType_Video extends Widget_Base
                     ],
                 ],
                 'selectors' => [
-                    '{{WRAPPER}} .video a' => 'width: {{SIZE}}{{UNIT}};height: {{SIZE}}{{UNIT}};line-height: {{SIZE}}{{UNIT}};',
+                    '{{WRAPPER}} .flexitype-video-icon a' => 'width: {{SIZE}}{{UNIT}};height: {{SIZE}}{{UNIT}};line-height: {{SIZE}}{{UNIT}};',
                 ],
             ]
         );
@@ -167,7 +154,7 @@ class FlexiType_Video extends Widget_Base
                 'type' => Controls_Manager::DIMENSIONS,
                 'size_units' => ['px', '%', 'em', 'rem', 'custom'],
                 'selectors' => [
-                    '{{WRAPPER}} .play-video-icon a' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+                    '{{WRAPPER}} .flexitype-video-icon a' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
                     '{{WRAPPER}} .video-pulse::after' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
                     '{{WRAPPER}} .video-pulse::before' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
                 ],
@@ -187,8 +174,8 @@ class FlexiType_Video extends Widget_Base
                 'label' => esc_html__('Border','flexitype-lite'),
                 'type' => Controls_Manager::COLOR,
                 'selectors' => [
-                    '{{WRAPPER}} .play-video-icon::after' => 'border-color: {{VALUE}}',
-                    '{{WRAPPER}} .play-video-icon::before' => 'border-color: {{VALUE}}',
+                    '{{WRAPPER}} .flexitype-video-icon::after' => 'border-color: {{VALUE}}',
+                    '{{WRAPPER}} .flexitype-video-icon::before' => 'border-color: {{VALUE}}',
                 ],
             ]
         );
@@ -198,8 +185,8 @@ class FlexiType_Video extends Widget_Base
                 'label' => esc_html__('Background','flexitype-lite'),
                 'type' => Controls_Manager::COLOR,
                 'selectors' => [
-                    '{{WRAPPER}} .play-video-icon::after' => 'background: {{VALUE}}',
-                    '{{WRAPPER}} .play-video-icon::before' => 'background: {{VALUE}}',
+                    '{{WRAPPER}} .flexitype-video-icon::after' => 'background: {{VALUE}}',
+                    '{{WRAPPER}} .flexitype-video-icon::before' => 'background: {{VALUE}}',
                 ],
             ]
         );
@@ -210,15 +197,21 @@ class FlexiType_Video extends Widget_Base
     protected function render()
     {
         $settings = $this->get_settings_for_display();
-
         ?>
-        <div class="video-icon-alignment">
-            <div class="play-video-icon video video-pulse">
-                <a class="video-popup" href="<?php echo esc_url($settings['video_url']); ?>">
-                    <i class="<?php echo esc_attr($settings['icon']['value']); ?>"></i>
-                </a>
-			</div>
-        </div>
+            <div class="video-icon-alignment">
+                <div class="flexitype-video-icon video-pulse">
+                    <a class="flexitype-video-popup-icon" href="<?php echo esc_url($settings['video_url']); ?>">
+                        <i class="<?php echo esc_attr($settings['icon']['value']); ?>"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="flexitype-video-popup">
+                <div class="flexitype-video-popup-video">
+                    <iframe src=""></iframe>
+                    <div class="video_close"><i class="fal fa-times"></i></div>
+                </div>
+            </div>
+            <div class="video-overlay"></div>
         <?php
     }
 }

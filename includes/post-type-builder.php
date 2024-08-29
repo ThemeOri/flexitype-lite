@@ -4,7 +4,7 @@ if (!defined('ABSPATH'))
     exit; 
 
 // CPT for Template Builders 
-function flexitype_template_builder()
+function flexitype_lite_template_builder()
 {
     register_post_type('flexitype_builder', array(
         'labels' => array(
@@ -23,4 +23,4 @@ function flexitype_template_builder()
     )
     );
 }
-add_action('init', 'flexitype_template_builder');
+add_action('init', 'flexitype_lite_template_builder');

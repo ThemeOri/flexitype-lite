@@ -483,7 +483,7 @@ class FlexiType_Button extends Widget_Base
 
         ?>
         <div class="flexitype-button-area">
-        <a class="flexitype-button <?php echo esc_attr( $settings['icon_align'] ); ?>" <?php echo $this->get_render_attribute_string('btn_url'); ?>>
+        <a class="flexitype-button <?php echo esc_attr( $settings['icon_align'] ); ?>" <?php echo $this->get_render_attribute_string('btn_url'); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>>
             <?php echo esc_html($settings['btn_text']); ?>
             <?php if (!empty($settings['button_icon']['value'])):?>
                 <i class="<?php echo esc_attr($settings['button_icon']['value']); ?>"></i>

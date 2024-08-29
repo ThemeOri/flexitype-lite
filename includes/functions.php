@@ -5,16 +5,16 @@ if (!defined('ABSPATH'))
 
 // disable this Post Types from Search Results
 
-function flexitype_exclude_cpt_from_search($query)
+function flexitype_lite_exclude_cpt_from_search($query)
 {
     if (!is_admin() && $query->is_main_query() && $query->is_search()) {
         $exclude_post_type = 'flexitype_builder';
         $query->set('post_type', array_diff(get_post_types(), array($exclude_post_type)));
     }
 }
-add_action('pre_get_posts', 'flexitype_exclude_cpt_from_search');
+add_action('pre_get_posts', 'flexitype_lite_exclude_cpt_from_search');
 
-function ft_get_allowed_html_tags()
+function flexitype_lite_get_allowed_html_tags()
 {
 	$allowed_html = [
 		'small'   => [
@@ -110,6 +110,6 @@ function ft_get_allowed_html_tags()
 	return $allowed_html;
 }
 
-function ft_allow_html($string = '') {
-	return wp_kses($string, ft_get_allowed_html_tags());
+function flexitype_lite_allow_html($string = '') {
+	return wp_kses($string, flexitype_lite_get_allowed_html_tags());
 }

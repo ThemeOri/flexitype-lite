@@ -1,8 +1,10 @@
 <?php
+// Exit if accessed directly 
+if ( ! defined( 'ABSPATH' ) ) exit; 
 /* Filter the single_template with our custom function*/
-add_filter('single_template', 'custom_template');
+add_filter('single_template', 'flexitype_lite_custom_template');
 
-function custom_template($single_template)
+function flexitype_lite_custom_template($single_template)
 {
 
     global $post;

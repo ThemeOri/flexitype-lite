@@ -3,54 +3,6 @@
     z-index: 99;
     height: 100%;
  }
-.video {
-    position: relative;
-    text-align: center;
-    display: inline-block;
-    z-index: 4;
-    a {
-        position: relative;
-        color: #FFFFFF;
-        font-size: 20px;
-        z-index: 1;
-        background: #242424;
-        width: 90px;
-        height: 90px;
-        line-height: 90px;
-        border-radius: 50%;
-        display: block;
-    }
-}
-.video-pulse::after,
-.video-pulse::before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    border: 1px solid#E8E8E8;
-    left: 0;
-    top: 0;
-    border-radius: 50%;
-    animation-duration: 2.5s;
-    animation-timing-function: linear;
-    animation-name: video-animation;
-    animation-iteration-count: infinite;
-}
-.video-pulse::before {
-    animation-delay: 1s;
-}
-@keyframes video-animation {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.5);
-    }
-    100% {
-      opacity: 0;
-      transform: scale(2);
-    }
-}
 @keyframes rollShape {
 	from {
 		transform: rotate(0deg);

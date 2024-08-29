@@ -6,9 +6,9 @@
  * Admin Menu
  */
 
-if (!class_exists('FlexiType_Page')) {
+if (!class_exists('FlexiType_Lite_Admin_Page')) {
 
-  class FlexiType_Page
+  class FlexiType_Lite_Admin_Page
   {
     private static $instance = null;
 
@@ -65,14 +65,20 @@ if (!class_exists('FlexiType_Page')) {
     {
         include FLEXITYPE_LITE_PATH . 'admin/dashboard.php';
     }
-    
+    /**
+ * Register and enqueue a custom stylesheet in the WordPress admin.
+ */
     public function flexitype_page_assets()
     {
-      wp_enqueue_style('flexitype-admin-css', FLEXITYPE_LITE_ASSETS . 'admin/assets/css/admin.css', array(), 1, 'all');
-      wp_enqueue_style('flexitype-admin-fonts', '//fonts.googleapis.com/css?family=Inter:400,500,600',  array(), null);
+      wp_register_style('flexitype-admin-css', FLEXITYPE_LITE_ASSETS . 'admin/assets/css/admin.css', array(), 1, 'all');
+      wp_register_style('flexitype-admin-fonts', '//fonts.googleapis.com/css?family=Inter:400,500,600',  array(), '1.0.4', null);
+
+      wp_enqueue_style('flexitype-admin-css');
+      wp_enqueue_style('flexitype-admin-fonts');
     }
+
 
   }
 
-  FlexiType_Page::init();
+  FlexiType_Lite_Admin_Page::init();
 }

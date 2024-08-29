@@ -51,9 +51,9 @@ class FlexiType_Team extends Widget_Base
                 'label' => esc_html__('Select Team Style', 'flexitype-lite'),
                 'type' => Controls_Manager::SELECT,
                 'options' => [
-                    'design-1' => esc_html__('Team Style 01', 'flexitype-lite'),
-                    'design-2' => esc_html__('Team Style 02', 'flexitype-lite'),
-                    'design-3' => esc_html__('Team Style 03', 'flexitype-lite'),
+                    'design-1' => esc_html__('Team 01', 'flexitype-lite'),
+                    'design-2' => esc_html__('Team 02', 'flexitype-lite'),
+                    'design-3' => esc_html__('Team 03', 'flexitype-lite'),
                 ],
                 'default' => 'design-1',
                 'label_block' => false,

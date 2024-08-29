@@ -46,8 +46,8 @@ class Flexitype_Lite_Addons
 	public function flexitype_lite_editor_styles()
 	{
 
-		wp_enqueue_style('flexitype-elements-editor-css', FLEXITYPE_LITE_ASSETS . 'assets/css/editor.css', array(), '1.0.0');
-
+		wp_register_style('flexitype-lite-editor-css', FLEXITYPE_LITE_ASSETS . 'assets/css/editor.css', array(), '1.0.4');
+		wp_enqueue_style('flexitype-lite-editor-css');
 
 	}
 
@@ -55,33 +55,27 @@ class Flexitype_Lite_Addons
 
 	public function flexitype_lite_elements_enqueue_scripts()
 	{
-		wp_enqueue_style('flexitype-elements-widget-css', FLEXITYPE_LITE_ASSETS . 'assets/sass/widget.css', array(), '1.0.0');
+		wp_register_style('flexitype-lite-widget-css', FLEXITYPE_LITE_ASSETS . 'assets/sass/widget.css', array(), '1.0.4');
+		wp_enqueue_style('flexitype-lite-widget-css');
 
-
-		wp_enqueue_script('flexitype-elements-widget-js', FLEXITYPE_LITE_ASSETS . 'assets/js/widgets.js', array('jquery'), '1.0.0', true);
+		wp_register_script('flexitype-lite-widget-js', FLEXITYPE_LITE_ASSETS . 'assets/js/widgets.js', array('jquery'), '1.0.4', true);
+		wp_enqueue_script('flexitype-lite-widget-js');
 	}
 
 	public function flexitype_lite_elements_register_widgets()
 	{
 
 		// Custom Widget
-		require_once ('accordion/accordion.php');
-		require_once ('breadcrumb/breadcrumb.php');
 		require_once ('button/button.php');
-		require_once ('content-switch/content-switch.php');
 		require_once ('flip-box/flip-box.php');
 		require_once ('icon-box/icon-box.php');
 		require_once ('image-box/image-box.php');
-		require_once ('image-slider/image-slider.php');
 		require_once ('logo/logo.php');
-		require_once ('menu/nav-menu.php');
-		require_once ('menu/vertical-menu.php');
 		require_once ('search/search.php');
 		require_once ('video/video-icon.php');
 		require_once ('blog/blog.php');
 		require_once('team/team.php');
 		require_once('testimonial/testimonial.php');
-		require_once('arrow/arrow.php');
 
 		// 3rd Party Widget 
 		if (function_exists('wpcf7')) {

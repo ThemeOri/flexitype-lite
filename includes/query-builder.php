@@ -1,7 +1,9 @@
 <?php
+// Exit if accessed directly 
+if ( ! defined( 'ABSPATH' ) ) exit; 
 
 // Number of Comments
-function flexitype_comments_count()
+function flexitype_lite_comments_count()
 {
     $comments_number = get_comments_number();
     if ($comments_number == 0) {
@@ -9,13 +11,13 @@ function flexitype_comments_count()
     } elseif ($comments_number == 1) {
         echo esc_html__('Comment', 'flexitype-lite') . ' (1)';
     } else {
-        echo esc_html__('Comments', 'flexitype-lite') . ' (' . $comments_number . ')';
+        echo esc_html__('Comments', 'flexitype-lite') . ' (' . $comments_number . ')'; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped 
     }
 }
 
 
 // Post Category
-function flexitype_post_categories()
+function flexitype_lite_categories()
 {
     $options = array();
     $post_categories_terms = get_terms(
@@ -35,7 +37,7 @@ function flexitype_post_categories()
 }
 
 // Portfolio Category
-function flexitype_portfolio_categories()
+function flexitype_lite_portfolio_catego()
 {
     $options = array();
     $portfolio_categories_terms = get_terms(
@@ -55,7 +57,7 @@ function flexitype_portfolio_categories()
 }
 
 // Display Menu
-function flexitype_nav_menu()
+function flexitype_lite_nav_menu()
 {
     $menu_list = get_terms(
         array(
@@ -74,7 +76,7 @@ function flexitype_nav_menu()
 
 
 // Display Template Builders 
-function flexitype_template()
+function flexitype_lite_template()
 {
 
     $template_list = array(
@@ -94,7 +96,7 @@ function flexitype_template()
     }
 }
 // Helper function to get authors list for select control
- function get_authors() {
+ function flexitype_lite_authors() {
     $authors = get_users();
     $options = [];
     foreach ( $authors as $author ) {

@@ -202,7 +202,7 @@ class FlexiType_FlipBox extends Widget_Base
             [
                 'label' => esc_html__('Select a Template','flexitype-lite'),
                 'type' => Controls_Manager::SELECT2,
-                'options' => flexitype_template(),
+                'options' => flexitype_lite_template(),
                 'label_block' => true,
                 'condition' => [
                     'content_type' => 'template',
@@ -452,7 +452,7 @@ class FlexiType_FlipBox extends Widget_Base
             [
                 'label' => esc_html__('Select a Template','flexitype-lite'),
                 'type' => Controls_Manager::SELECT2,
-                'options' => flexitype_template(),
+                'options' => flexitype_lite_template(),
                 'label_block' => true,
                 'condition' => [
                     'back_content_type' => 'template',
@@ -2105,16 +2105,16 @@ class FlexiType_FlipBox extends Widget_Base
                     <?php endif; ?>
                     <?php if (!empty($settings['box_image'])): ?>
                         <div class="icon__box-item-image">
-                            <?php echo Group_Control_Image_Size::get_attachment_image_html( $settings, 'box_image' ); ?>
+                            <?php echo Group_Control_Image_Size::get_attachment_image_html( $settings, 'box_image' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
                         </div>
                     <?php endif; ?>
                     <?php if (!empty($settings['select_template']) || ($settings['content_type'] === 'template')) {
-                        echo Plugin::$instance->frontend->get_builder_content($settings['select_template'], true);
+                        echo Plugin::$instance->frontend->get_builder_content($settings['select_template'], true); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped 
                     } else { ?>
                         <div class="icon__box-item-content">
                             <div class="title">
                                 <?php if (!empty($settings['box_title'])): ?>
-                                    <h5><?php echo ft_allow_html($settings['box_title']); ?></h5>
+                                    <h5><?php echo flexitype_lite_allow_html($settings['box_title']); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></h5>
                                 <?php endif; ?>
                                 <?php if (!empty($settings['box_description'])): ?>
                                     <?php echo wp_kses_post(wpautop($settings['box_description'])); ?>
@@ -2139,22 +2139,22 @@ class FlexiType_FlipBox extends Widget_Base
                     <?php endif; ?>
                     <?php if (!empty($settings['back_box_image'])): ?>
                         <div class="icon__box-item-image">
-                            <?php echo Group_Control_Image_Size::get_attachment_image_html( $settings, 'back_box_image' ); ?>
+                            <?php echo Group_Control_Image_Size::get_attachment_image_html( $settings, 'back_box_image' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
                         </div>
                     <?php endif; ?>
                     <?php if (!empty($settings['back_select_template']) || ($settings['back_content_type'] === 'template')) {
-                        echo Plugin::$instance->frontend->get_builder_content($settings['back_select_template'], true);
+                        echo Plugin::$instance->frontend->get_builder_content($settings['back_select_template'], true); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped 
                     } else { ?>
                         <div class="icon__box-item-content">
                             <div class="title">
                                 <?php if (!empty($settings['back_box_title'])): ?>
                                     <h5>
                                         <?php if (!empty($settings['back_title_link']['url'])) { ?>
-                                            <a <?php echo $this->get_render_attribute_string('back_title_link'); ?>>
-                                                <?php echo ft_allow_html($settings['back_box_title']); ?>
+                                            <a <?php echo $this->get_render_attribute_string('back_title_link'); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>>
+                                                <?php echo flexitype_lite_allow_html($settings['back_box_title']); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
                                             </a>
                                         <?php } else {
-                                        echo ft_allow_html($settings['back_box_title']);
+                                        echo flexitype_lite_allow_html($settings['back_box_title']); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped 
                                         } ?>
                                     </h5>
                                 <?php endif; ?>
@@ -2164,7 +2164,7 @@ class FlexiType_FlipBox extends Widget_Base
                             </div>
                             <?php if ('yes' === $settings['back_box_btn_active']): ?>
                             <div>
-                                <a class="flexitype-button <?php echo esc_attr( $settings['back_icon_align'] ); ?>" <?php echo $this->get_render_attribute_string('back_box_btn_link'); ?>>
+                                <a class="flexitype-button <?php echo esc_attr( $settings['back_icon_align'] ); ?>" <?php echo $this->get_render_attribute_string('back_box_btn_link'); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>>
                                     <?php echo esc_html($settings['back_box_btn']); ?>
                                     <?php if (!empty($settings['back_button_icon']['value'])):?><i class="<?php echo esc_attr($settings['back_button_icon']['value']); ?>"></i><?php endif;?>
                                 </a>

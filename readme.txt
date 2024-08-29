@@ -1,7 +1,7 @@
 === FlexiType Lite ===
 Contributors: wpsojib, themeori
 Tags:  elementor addons, elementor widget, elementor, addons for elementor, elementor blocks
-Stable tag: 1.0.2
+Stable tag: 1.0.4
 Requires at least: 5.0
 Tested up to: 6.6
 Requires PHP: 7.4
