@@ -4,7 +4,7 @@
  * Plugin Name:       FlexiType Lite
  * Plugin URI:        http://flexitype.themeori.com
  * Description:       Simple Powerful Tools for Your Next WordPress Project
- * Version:           1.0.4
+ * Version:           1.0.5
  * Requires at least: 6.5
  * Requires PHP:      7.4
  * Author:            ThemeOri
@@ -21,7 +21,7 @@
 if (!defined('ABSPATH'))
 	exit;
 
-define('FLEXITYPE_LITE_VERSION', '1.0.4');
+define('FLEXITYPE_LITE_VERSION', '1.0.5');
 define('FLEXITYPE_LITE_FILE', __FILE__);
 define('FLEXITYPE_LITE_URL', plugin_dir_url(FLEXITYPE_LITE_FILE));
 define('FLEXITYPE_LITE_ASSETS', trailingslashit(FLEXITYPE_LITE_URL));
